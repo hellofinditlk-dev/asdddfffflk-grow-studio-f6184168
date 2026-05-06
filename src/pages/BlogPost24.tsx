@@ -14,6 +14,7 @@ const BlogPost24 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">Graphic Design Mistakes That Can Damage Your Brand</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
+            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agencies in Sri Lanka</Link>? This guide explains the strategy that actually moves the needle for Sri Lankan businesses.</p>
             <p>Graphic design mistakes can negatively impact brand perception and marketing performance. Inconsistent visuals, poor typography, and cluttered layouts reduce credibility and engagement.</p>
             <p>One common mistake is lack of visual consistency. When colors, fonts, and styles change frequently, audiences struggle to recognize the brand.</p>
             <p>Another issue is overcrowded design. Trying to include too much information reduces clarity and weakens messaging.</p>
@@ -23,6 +24,8 @@ const BlogPost24 = () => (
             <p>Strengthen your brand with{" "}<Link to="/social-media-management-sri-lanka" className="text-primary font-semibold hover:underline">social media management Sri Lanka</Link>{" "}for consistent posting, or create engaging motion content with{" "}<Link to="/video-production-sri-lanka" className="text-primary font-semibold hover:underline">video production Sri Lanka</Link>.</p>
             <p>For detailed insights on{" "}<Link to="/advertising-in-sri-lanka" className="text-primary font-semibold hover:underline">advertising in Sri Lanka</Link>{" "}including market data, platform comparisons, and budget strategies, explore our complete guide.</p>
             <p>As one of the{" "}<Link to="/" className="text-primary font-semibold hover:underline">best digital marketing agencies in Sri Lanka</Link>, Cypher Digital offers expert solutions tailored to grow your business online.</p>
+          
+            <p>Explore our deep dive on <Link to="/brand-identity-design-sri-lanka" className="text-primary font-semibold hover:underline">brand identity design Sri Lanka</Link> to extend the strategy outlined above.</p>
           </div>
           <div className="mt-14 pt-10 border-t border-border">
             <h2 className="font-heading text-lg font-bold mb-5">Related Services</h2>

@@ -18,6 +18,7 @@ const BlogPost16 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">Social Media Design Best Practices for Better Engagement</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
+            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agencies in Sri Lanka</Link>? This guide explains the strategy that actually moves the needle for Sri Lankan businesses.</p>
             <p>Social media design directly impacts how audiences interact with content. Strong visuals help brands stop scrolling behavior and capture user attention instantly.</p>
             <p>Effective social media design uses clear hierarchy, readable typography, consistent colors, and simple messaging. Designs that communicate quickly tend to perform better across platforms.</p>
             <p>Consistency is essential. When brands maintain a recognizable style, audiences can instantly identify their content, improving brand recall and trust.</p>

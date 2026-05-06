@@ -14,6 +14,7 @@ const BlogPost19 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">Benefits of Corporate Video Production for Brands</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
+            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agencies in Sri Lanka</Link>? This guide explains the strategy that actually moves the needle for Sri Lankan businesses.</p>
             <p>Corporate videos help businesses communicate their brand story, values, and services in a professional and engaging way. In Sri Lanka, companies are increasingly using corporate videos to strengthen brand credibility and attract new customers.</p>
             <p>These videos can showcase company culture, introduce teams, explain services, and highlight achievements. This builds trust and makes businesses appear more established.</p>
             <p>Corporate videos are also valuable for websites, presentations, recruitment, and advertising campaigns. They provide a clear and professional way to communicate complex information.</p>
@@ -23,6 +24,8 @@ const BlogPost19 = () => (
             <p>Promote your corporate video with{" "}<Link to="/facebook-ads-sri-lanka" className="text-primary font-semibold hover:underline">Facebook Ads Sri Lanka</Link>, enhance branding with{" "}<Link to="/graphic-design-sri-lanka" className="text-primary font-semibold hover:underline">graphic design Sri Lanka</Link>, or build organic reach with{" "}<Link to="/seo-services-sri-lanka" className="text-primary font-semibold hover:underline">SEO services Sri Lanka</Link>.</p>
             <p>For detailed insights on{" "}<Link to="/advertising-in-sri-lanka" className="text-primary font-semibold hover:underline">advertising in Sri Lanka</Link>{" "}including market data, platform comparisons, and budget strategies, explore our complete guide.</p>
             <p>As one of the{" "}<Link to="/" className="text-primary font-semibold hover:underline">best digital marketing agencies in Sri Lanka</Link>, Cypher Digital offers expert solutions tailored to grow your business online.</p>
+          
+            <p>Explore our deep dive on <Link to="/social-media-management-sri-lanka" className="text-primary font-semibold hover:underline">social media management Sri Lanka</Link> to extend the strategy outlined above.</p>
           </div>
           <div className="mt-14 pt-10 border-t border-border">
             <h2 className="font-heading text-lg font-bold mb-5">Related Services</h2>

@@ -22,6 +22,7 @@ const BlogPost35 = () => (
           </header>
 
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
+            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agencies in Sri Lanka</Link>? This guide explains the strategy that actually moves the needle for Sri Lankan businesses.</p>
             <p>
               One of the biggest challenges businesses face is managing marketing costs effectively. The good news is that modern <Link to="/advertising-in-sri-lanka" className="text-primary underline font-semibold">advertising in Sri Lanka</Link> allows you to achieve better results with smaller budgets through smart, data-driven strategies.
             </p>

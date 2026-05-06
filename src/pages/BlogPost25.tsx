@@ -14,6 +14,7 @@ const BlogPost25 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">Google Ads Optimization Tips to Improve Campaign Performance</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
+            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital agency</Link>? This guide explains the strategy that actually moves the needle for Sri Lankan businesses.</p>
             <p>Optimizing Google Ads campaigns is essential for reducing costs and improving results. Many businesses launch campaigns but fail to refine them based on performance data.</p>
             <p>Keyword optimization is one of the most important steps. Adding negative keywords, refining match types, and focusing on high-intent terms improves efficiency.</p>
             <p>Ad copy testing also plays a major role. Testing different headlines and descriptions helps identify the best performing variations.</p>
@@ -23,6 +24,8 @@ const BlogPost25 = () => (
             <p>Pair with{" "}<Link to="/seo-services-sri-lanka" className="text-primary font-semibold hover:underline">SEO services Sri Lanka</Link>{" "}for organic growth, or improve ad creatives with{" "}<Link to="/graphic-design-sri-lanka" className="text-primary font-semibold hover:underline">graphic design Sri Lanka</Link>.</p>
             <p>For detailed insights on{" "}<Link to="/advertising-in-sri-lanka" className="text-primary font-semibold hover:underline">advertising in Sri Lanka</Link>{" "}including market data, platform comparisons, and budget strategies, explore our complete guide.</p>
             <p>As one of the{" "}<Link to="/" className="text-primary font-semibold hover:underline">best digital marketing agencies in Sri Lanka</Link>, Cypher Digital offers expert solutions tailored to grow your business online.</p>
+          
+            <p>Ready to take the next step? <Link to="/contact" className="text-primary font-semibold hover:underline">request a free audit</Link> from our team.</p>
           </div>
           <div className="mt-14 pt-10 border-t border-border">
             <h2 className="font-heading text-lg font-bold mb-5">Related Services</h2>

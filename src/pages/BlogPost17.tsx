@@ -18,6 +18,7 @@ const BlogPost17 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">Google Ads vs Facebook Ads — Which is Better for Your Business?</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
+            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital agencies</Link>? This guide explains the strategy that actually moves the needle for Sri Lankan businesses.</p>
             <p>Google Ads and Facebook Ads are two of the most popular digital advertising platforms, but they serve different purposes. Understanding their differences helps businesses choose the right strategy.</p>
             <p>Google Ads targets users based on search intent. When someone searches for a service, they are often ready to take action. This makes Google Ads highly effective for lead generation.</p>
             <p>Facebook Ads focuses on discovery. It introduces brands to new audiences based on interests and behavior, making it ideal for awareness and remarketing.</p>
@@ -27,6 +28,8 @@ const BlogPost17 = () => (
             <p>Combine with{" "}<Link to="/facebook-ads-sri-lanka" className="text-primary font-semibold hover:underline">Facebook Ads Sri Lanka</Link>{" "}for full-funnel coverage, add{" "}<Link to="/seo-services-sri-lanka" className="text-primary font-semibold hover:underline">SEO services Sri Lanka</Link>{" "}for organic growth, or use{" "}<Link to="/video-production-sri-lanka" className="text-primary font-semibold hover:underline">video production Sri Lanka</Link>{" "}for ad creatives.</p>
             <p>For detailed insights on{" "}<Link to="/advertising-in-sri-lanka" className="text-primary font-semibold hover:underline">advertising in Sri Lanka</Link>{" "}including market data, platform comparisons, and budget strategies, explore our complete guide.</p>
             <p>As one of the{" "}<Link to="/" className="text-primary font-semibold hover:underline">best digital marketing agencies in Sri Lanka</Link>, Cypher Digital offers expert solutions tailored to grow your business online.</p>
+          
+            <p>Ready to take the next step? <Link to="/contact" className="text-primary font-semibold hover:underline">Book a free strategy session</Link> from our team.</p>
           </div>
           <div className="mt-14 pt-10 border-t border-border">
             <h2 className="font-heading text-lg font-bold mb-5">Related Services</h2>

@@ -18,6 +18,7 @@ const BlogPost5 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">Why Video Production is Essential for Business Growth in Sri Lanka</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
+            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agency</Link>? This guide explains the strategy that actually moves the needle for Sri Lankan businesses.</p>
             <p>Video content has become one of the most effective ways for businesses to capture attention, communicate messages, and increase conversions. In Sri Lanka, consumer behavior is shifting rapidly toward short videos, reels, and promotional video content.</p>
             <p>Videos allow brands to explain services clearly, showcase products, and build emotional connections with their audience. Compared to static images, video content generates higher engagement and stronger recall.</p>
             <p>Businesses use video for multiple purposes including advertisements, social media content, brand storytelling, product demonstrations, and corporate presentations. Each type of video plays a different role in the marketing funnel.</p>

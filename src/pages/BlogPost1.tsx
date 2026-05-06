@@ -22,6 +22,7 @@ const BlogPost1 = () => (
           </header>
 
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
+            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agency in Sri Lanka</Link>? This guide explains the strategy that actually moves the needle for Sri Lankan businesses.</p>
             <p>
               In today's digital landscape, social media plays a crucial role in how customers discover and interact with brands. Many businesses in Sri Lanka first connect with potential customers through platforms like Facebook, Instagram, and TikTok before they visit a website or make a purchase decision.
             </p>

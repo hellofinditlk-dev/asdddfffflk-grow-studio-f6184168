@@ -22,6 +22,7 @@ const BlogPost2 = () => (
           </header>
 
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
+            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agencies in Sri Lanka</Link>? This guide explains the strategy that actually moves the needle for Sri Lankan businesses.</p>
             <p>
               Consistency is one of the most important factors behind successful brands on social media. Businesses that post regularly stay visible, relevant, and memorable to their audience. In Sri Lanka, many businesses struggle with social media growth simply because they post inconsistently.
             </p>

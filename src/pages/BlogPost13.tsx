@@ -18,6 +18,7 @@ const BlogPost13 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">How Facebook Campaigns Help Businesses Grow in Sri Lanka</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
+            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital agencies</Link>? This guide explains the strategy that actually moves the needle for Sri Lankan businesses.</p>
             <p>Facebook campaigns have become one of the most effective ways for businesses in Sri Lanka to reach targeted audiences and generate consistent leads. With advanced targeting options, businesses can promote products and services to people most likely to convert.</p>
             <p>A well-structured Facebook campaign starts with clear objectives. Businesses can run campaigns for awareness, engagement, traffic, lead generation, or sales depending on their goals. Choosing the right objective directly impacts performance.</p>
             <p>Audience targeting is a major advantage. Advertisers can target users based on demographics, interests, behavior, and previous interactions with the brand. This ensures marketing budgets are spent efficiently.</p>
@@ -38,6 +39,8 @@ const BlogPost13 = () => (
             </p>
             <p>For detailed insights on{" "}<Link to="/advertising-in-sri-lanka" className="text-primary font-semibold hover:underline">advertising in Sri Lanka</Link>{" "}including market data, platform comparisons, and budget strategies, explore our complete guide.</p>
             <p>As one of the{" "}<Link to="/" className="text-primary font-semibold hover:underline">best digital marketing agencies in Sri Lanka</Link>, Cypher Digital offers expert solutions tailored to grow your business online.</p>
+          
+            <p>Explore our deep dive on <Link to="/blog/facebook-campaign-strategy-guide-sri-lankan-brands" className="text-primary font-semibold hover:underline">Facebook campaign strategy guide</Link> to extend the strategy outlined above.</p>
           </div>
           <div className="mt-14 pt-10 border-t border-border">
             <h2 className="font-heading text-lg font-bold mb-5">Related Services</h2>

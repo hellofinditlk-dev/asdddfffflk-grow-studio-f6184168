@@ -18,6 +18,7 @@ const BlogPost11 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">Google Search Ads vs Display Ads — Understanding the Difference</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
+            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital agency</Link>? This guide explains the strategy that actually moves the needle for Sri Lankan businesses.</p>
             <p>Google Ads offers multiple campaign types, but the two most commonly used are search ads and display ads. Each serves a different purpose in the customer journey.</p>
             <p>Search ads appear when users actively search for services. This makes them ideal for capturing high-intent customers ready to take action.</p>
             <p>Display ads focus on awareness. They appear across websites and apps, helping brands stay visible and reach new audiences.</p>

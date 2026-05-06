@@ -14,6 +14,7 @@ const BlogPost26 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">On-Page SEO Guide for Better Rankings</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
+            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agency</Link>? This guide explains the strategy that actually moves the needle for Sri Lankan businesses.</p>
             <p>On-page SEO focuses on optimizing individual pages so search engines can understand content and rank it effectively. It is one of the most important components of SEO.</p>
             <p>Key on-page elements include titles, meta descriptions, headings, keyword placement, internal linking, and content structure.</p>
             <p>Content quality plays a major role. Pages that provide clear, helpful information are more likely to rank and attract engagement.</p>

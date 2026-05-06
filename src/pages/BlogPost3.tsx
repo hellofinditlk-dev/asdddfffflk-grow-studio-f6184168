@@ -20,6 +20,7 @@ const BlogPost3 = () => (
             </h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
+            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agency in Sri Lanka</Link>? This guide explains the strategy that actually moves the needle for Sri Lankan businesses.</p>
             <p>Facebook and Instagram remain the most powerful social media platforms for businesses in Sri Lanka. These platforms allow brands to reach targeted audiences, build relationships, and generate leads consistently.</p>
             <p>However, successful management requires more than posting images. Businesses need a clear strategy that includes content planning, audience targeting, visual branding, and engagement.</p>
             <p>A strong Facebook and Instagram management approach focuses on content variety. Educational posts build authority, entertaining posts increase reach, and promotional posts drive conversions. Brands that balance these content types typically achieve better results.</p>
@@ -41,6 +42,8 @@ const BlogPost3 = () => (
             </p>
             <p>For detailed insights on{" "}<Link to="/advertising-in-sri-lanka" className="text-primary font-semibold hover:underline">advertising in Sri Lanka</Link>{" "}including market data, platform comparisons, and budget strategies, explore our complete guide.</p>
             <p>As one of the{" "}<Link to="/" className="text-primary font-semibold hover:underline">best digital marketing agencies in Sri Lanka</Link>, Cypher Digital offers expert solutions tailored to grow your business online.</p>
+          
+            <p>Explore our deep dive on <Link to="/graphic-design-sri-lanka" className="text-primary font-semibold hover:underline">graphic design Sri Lanka</Link> to extend the strategy outlined above.</p>
           </div>
           <div className="mt-14 pt-10 border-t border-border">
             <h2 className="font-heading text-lg font-bold mb-5">Related Services</h2>

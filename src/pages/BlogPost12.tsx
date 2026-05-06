@@ -18,6 +18,7 @@ const BlogPost12 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">Local SEO Strategies for Sri Lankan Businesses</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
+            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agency</Link>? This guide explains the strategy that actually moves the needle for Sri Lankan businesses.</p>
             <p>Local SEO helps businesses appear in location-based searches such as "near me" or service searches within a specific city. This is especially important for service businesses targeting customers in Sri Lanka.</p>
             <p>Optimizing Google Business Profile, using location keywords, building local citations, and generating reviews all contribute to better local rankings.</p>
             <p>Content also plays a major role. Creating location-focused articles helps search engines understand where a business operates.</p>

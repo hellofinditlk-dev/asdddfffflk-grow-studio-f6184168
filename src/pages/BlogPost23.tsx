@@ -14,6 +14,7 @@ const BlogPost23 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">Video Marketing Strategy Guide for Sri Lankan Businesses</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
+            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agency</Link>? This guide explains the strategy that actually moves the needle for Sri Lankan businesses.</p>
             <p>A strong video marketing strategy helps businesses attract attention, explain value, and drive conversions. As video consumption continues to grow in Sri Lanka, brands that invest in video gain a competitive advantage.</p>
             <p>An effective strategy starts with clear goals such as brand awareness, lead generation, or sales. Different video types support different stages of the customer journey.</p>
             <p>Short-form videos increase reach, explainer videos educate audiences, and testimonial videos build trust. Combining these formats creates a balanced strategy.</p>
@@ -23,6 +24,8 @@ const BlogPost23 = () => (
             <p>Distribute your videos with{" "}<Link to="/social-media-management-sri-lanka" className="text-primary font-semibold hover:underline">social media management Sri Lanka</Link>, amplify reach with{" "}<Link to="/facebook-ads-sri-lanka" className="text-primary font-semibold hover:underline">Facebook Ads Sri Lanka</Link>, or run YouTube campaigns with{" "}<Link to="/google-ads-sri-lanka" className="text-primary font-semibold hover:underline">Google Ads Sri Lanka</Link>.</p>
             <p>For detailed insights on{" "}<Link to="/advertising-in-sri-lanka" className="text-primary font-semibold hover:underline">advertising in Sri Lanka</Link>{" "}including market data, platform comparisons, and budget strategies, explore our complete guide.</p>
             <p>As one of the{" "}<Link to="/" className="text-primary font-semibold hover:underline">best digital marketing agencies in Sri Lanka</Link>, Cypher Digital offers expert solutions tailored to grow your business online.</p>
+          
+            <p>Explore our deep dive on <Link to="/tiktok-marketing-sri-lanka" className="text-primary font-semibold hover:underline">TikTok marketing Sri Lanka</Link> to extend the strategy outlined above.</p>
           </div>
           <div className="mt-14 pt-10 border-t border-border">
             <h2 className="font-heading text-lg font-bold mb-5">Related Services</h2>

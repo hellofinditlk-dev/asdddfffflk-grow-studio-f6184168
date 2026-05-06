@@ -84,10 +84,14 @@ const About = () => (
           </div>
           <div className="space-y-4 text-muted-foreground leading-relaxed">
             <p>
-              Cypher Digital was founded with a simple belief: Sri Lankan brands deserve world-class digital marketing — without the agency fluff, the inflated retainers, or the "we'll get back to you next week" attitude.
+              Cypher Digital was founded with a simple belief: Sri Lankan brands deserve world-class digital marketing from a{" "}
+              <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agency</Link>
+              {" "}that actually delivers — without the agency fluff, the inflated retainers, or the "we'll get back to you next week" attitude.
             </p>
             <p>
-              We've watched too many local businesses burn budgets on boosted posts, generic agencies and freelancers who disappear after month two. So we built something different — a hands-on, performance-obsessed team that lives and breathes the Sri Lankan market.
+              We've watched too many local businesses burn budgets on boosted posts, generic{" "}
+              <Link to="/" className="text-primary font-semibold hover:underline">digital agencies</Link>
+              {" "}and freelancers who disappear after month two. So we built something different — a hands-on, performance-obsessed team that lives and breathes the Sri Lankan market.
             </p>
             <p>
               Today, we're proud to be one of the most trusted{" "}

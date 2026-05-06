@@ -27,6 +27,7 @@ const WeddingPlanning = lazy(() => import("./pages/WeddingPlanning"));
 const EventMarketing = lazy(() => import("./pages/EventMarketing"));
 const ProductLaunchEvents = lazy(() => import("./pages/ProductLaunchEvents"));
 const Contact = lazy(() => import("./pages/Contact"));
+const About = lazy(() => import("./pages/About"));
 const Blog = lazy(() => import("./pages/Blog"));
 const BlogPost1 = lazy(() => import("./pages/BlogPost1"));
 const BlogPost2 = lazy(() => import("./pages/BlogPost2"));
@@ -225,6 +226,7 @@ const App = () => (
               <Route path="/blog/tiktok-marketing-sri-lanka-2025" element={<BlogPost71 />} />
               <Route path="/blog/signs-you-need-social-media-agency-sri-lanka" element={<BlogPost72 />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/about" element={<About />} />
               <Route path="/advertising-in-sri-lanka" element={<AdvertisingInSriLanka />} />
               <Route path="/logo-design-sri-lanka" element={<DesignSubService />} />
               <Route path="/brand-identity-design-sri-lanka" element={<DesignSubService />} />

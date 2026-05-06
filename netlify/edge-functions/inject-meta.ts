@@ -4,6 +4,11 @@ const META_MAP: Record<string, { title: string; description: string; h1: string 
     description: "Best digital marketing agency in Sri Lanka. Social media management, Facebook & Google Ads, SEO, video production & graphic design",
     h1: "Social Media & Digital Marketing Solutions in Sri Lanka",
   },
+  "/about": {
+    title: "About Cypher Digital | Digital Marketing Agency in Sri Lanka",
+    description: "Learn about Cypher Digital — a results-driven digital marketing agency in Colombo, Sri Lanka. 200+ brands, 15K+ leads, 340% average ROI. Meet the team behind the growth.",
+    h1: "The Digital Marketing Agency Helping Sri Lankan Brands Win Online",
+  },
   "/social-media-management-sri-lanka": {
     title: "Social Media Management Sri Lanka | Social Media Marketing",
     description: "#1 Social media management Sri Lanka & social media marketing Sri Lanka. Best social media marketing packages, trusted social media marketing company. Free call.",

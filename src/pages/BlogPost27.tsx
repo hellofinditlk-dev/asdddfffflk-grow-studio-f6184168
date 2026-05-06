@@ -14,6 +14,7 @@ const BlogPost27 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">Why Industry-Specific Digital Marketing Is Important for Businesses in Sri Lanka</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
+            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agencies in Sri Lanka</Link>? This guide explains the strategy that actually moves the needle for Sri Lankan businesses.</p>
             <p>In today's competitive online environment, businesses must adopt effective digital marketing strategies to stay ahead of their competitors. Customers now search online before choosing a service, booking a hotel, buying products, or selecting a course. Because of this, industry-specific digital marketing strategies are essential for businesses that want to attract customers and grow online.</p>
             <p>At Cypher Digital, we provide tailored marketing strategies designed for different industries. Each industry has unique customer behavior, marketing channels, and buying patterns. A customized strategy helps businesses connect with the right audience and generate better results.</p>
 
@@ -62,6 +63,8 @@ const BlogPost27 = () => (
             <p>If you want to improve your online visibility, attract more customers, and increase revenue, our team can create a strategy tailored to your industry.</p>
             <p>For detailed insights on{" "}<Link to="/advertising-in-sri-lanka" className="text-primary font-semibold hover:underline">advertising in Sri Lanka</Link>{" "}including market data, platform comparisons, and budget strategies, explore our complete guide.</p>
             <p>As one of the{" "}<Link to="/" className="text-primary font-semibold hover:underline">best digital marketing agencies in Sri Lanka</Link>, Cypher Digital offers expert solutions tailored to grow your business online.</p>
+          
+            <p>Ready to take the next step? <Link to="/contact" className="text-primary font-semibold hover:underline">talk to our team</Link> from our team.</p>
           </div>
           <div className="mt-14 pt-10 border-t border-border">
             <h2 className="font-heading text-lg font-bold mb-5">Explore Industry Solutions</h2>

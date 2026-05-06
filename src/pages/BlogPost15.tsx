@@ -18,6 +18,7 @@ const BlogPost15 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">How Ad Videos Increase Conversions for Businesses</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
+            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agency</Link>? This guide explains the strategy that actually moves the needle for Sri Lankan businesses.</p>
             <p>Ad videos have become one of the most powerful marketing tools for driving conversions. Businesses in Sri Lanka are increasingly using short promotional videos to capture attention and communicate value quickly.</p>
             <p>Video ads allow brands to demonstrate products, explain services, and create emotional connections within seconds. Compared to static ads, video ads typically achieve higher engagement and better click-through rates.</p>
             <p>Successful ad videos focus on clear messaging, strong hooks, storytelling, and a compelling call to action. The first few seconds are critical because they determine whether viewers continue watching.</p>

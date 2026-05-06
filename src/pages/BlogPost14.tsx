@@ -18,6 +18,7 @@ const BlogPost14 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">Facebook Campaign Strategy Guide for Sri Lankan Brands</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
+            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agencies in Sri Lanka</Link>? This guide explains the strategy that actually moves the needle for Sri Lankan businesses.</p>
             <p>Running successful Facebook campaigns requires more than boosting posts. A strategic approach focuses on the full customer journey — from awareness to conversion.</p>
             <p>The first stage is awareness campaigns that introduce the brand to new audiences. Next, consideration campaigns engage users through video views, traffic campaigns, or content interaction. Finally, conversion campaigns target users ready to take action.</p>
             <p>Retargeting is one of the most powerful features of Facebook advertising. Businesses can reach people who visited their website, interacted with their <Link to="/social-media-management-sri-lanka" className="text-primary hover:underline font-semibold">Social Media Marketing Sri Lanka</Link> content, or watched videos. This increases conversion rates significantly.</p>

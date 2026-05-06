@@ -18,6 +18,7 @@ const BlogPost18 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">How to Rank on Google in Sri Lanka — Practical Guide</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
+            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agencies</Link>? This guide explains the strategy that actually moves the needle for Sri Lankan businesses.</p>
             <p>Ranking on Google requires a combination of technical optimization, content strategy, and authority building. Businesses that follow structured SEO practices achieve consistent long-term growth.</p>
             <p>The first step is keyword research. Understanding what customers search for allows businesses to create relevant content and optimized service pages.</p>
             <p>On-page SEO ensures each page clearly communicates its topic to search engines. This includes titles, headings, internal linking, and content structure.</p>
@@ -27,6 +28,8 @@ const BlogPost18 = () => (
             <p>Support your SEO with{" "}<Link to="/google-ads-sri-lanka" className="text-primary font-semibold hover:underline">Google Ads Sri Lanka</Link>{" "}for immediate traffic, strengthen content with{" "}<Link to="/graphic-design-sri-lanka" className="text-primary font-semibold hover:underline">graphic design Sri Lanka</Link>, or build authority with{" "}<Link to="/social-media-management-sri-lanka" className="text-primary font-semibold hover:underline">social media management Sri Lanka</Link>.</p>
             <p>For detailed insights on{" "}<Link to="/advertising-in-sri-lanka" className="text-primary font-semibold hover:underline">advertising in Sri Lanka</Link>{" "}including market data, platform comparisons, and budget strategies, explore our complete guide.</p>
             <p>As one of the{" "}<Link to="/" className="text-primary font-semibold hover:underline">best digital marketing agencies in Sri Lanka</Link>, Cypher Digital offers expert solutions tailored to grow your business online.</p>
+          
+            <p>Explore our deep dive on <Link to="/blog/local-seo-strategies-sri-lankan-businesses" className="text-primary font-semibold hover:underline">local SEO strategies</Link> to extend the strategy outlined above.</p>
           </div>
           <div className="mt-14 pt-10 border-t border-border">
             <h2 className="font-heading text-lg font-bold mb-5">Related Services</h2>

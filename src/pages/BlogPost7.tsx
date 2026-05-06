@@ -18,6 +18,7 @@ const BlogPost7 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">How Google Ads Helps Businesses Get High Intent Customers</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
+            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital agencies</Link>? This guide explains the strategy that actually moves the needle for Sri Lankan businesses.</p>
             <p>Google Ads allows businesses to reach customers exactly when they are searching for a product or service. This makes it one of the most powerful digital marketing channels for generating high-intent leads.</p>
             <p>Unlike <Link to="/social-media-management-sri-lanka" className="text-primary hover:underline font-semibold">Social Media Marketing Sri Lanka</Link>, Google Ads targets users based on search behavior. When someone searches for a service, they already have intent, which increases conversion probability.</p>
             <p>Search ads, display ads, remarketing, and YouTube ads provide multiple ways to reach potential customers across the buying journey.</p>

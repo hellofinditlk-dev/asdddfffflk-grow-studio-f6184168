@@ -18,6 +18,7 @@ const BlogPost9 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">Types of Business Videos That Increase Engagement and Sales</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
+            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agencies in Sri Lanka</Link>? This guide explains the strategy that actually moves the needle for Sri Lankan businesses.</p>
             <p>Businesses today use different types of video content to attract, educate, and convert customers. In Sri Lanka, short-form videos, promotional videos, and explainer videos are becoming essential marketing tools.</p>
             <p>Promotional videos help introduce products or services in a compelling way. Explainer videos simplify complex ideas and improve customer understanding. Social media reels increase reach and visibility, while testimonial videos build trust.</p>
             <p>Video content performs well because it combines visuals, sound, and storytelling. This creates stronger emotional connections compared to static content.</p>
@@ -37,6 +38,8 @@ const BlogPost9 = () => (
             </p>
             <p>For detailed insights on{" "}<Link to="/advertising-in-sri-lanka" className="text-primary font-semibold hover:underline">advertising in Sri Lanka</Link>{" "}including market data, platform comparisons, and budget strategies, explore our complete guide.</p>
             <p>As one of the{" "}<Link to="/" className="text-primary font-semibold hover:underline">best digital marketing agencies in Sri Lanka</Link>, Cypher Digital offers expert solutions tailored to grow your business online.</p>
+          
+            <p>Explore our deep dive on <Link to="/blog/video-marketing-strategy-guide-sri-lankan-businesses" className="text-primary font-semibold hover:underline">video marketing strategy guide</Link> to extend the strategy outlined above.</p>
           </div>
           <div className="mt-14 pt-10 border-t border-border">
             <h2 className="font-heading text-lg font-bold mb-5">Related Services</h2>

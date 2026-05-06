@@ -18,6 +18,7 @@ const BlogPost8 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">Why SEO is Important for Long-Term Business Growth</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
+            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agency</Link>? This guide explains the strategy that actually moves the needle for Sri Lankan businesses.</p>
             <p>Search Engine Optimization (SEO) helps businesses appear on Google when customers search for relevant products or services. Unlike paid advertising, SEO generates long-term organic traffic.</p>
             <p>Ranking on search engines increases visibility, credibility, and consistent lead generation. Businesses that invest in SEO build sustainable digital growth over time.</p>
             <p>SEO includes technical improvements, content optimization, keyword strategy, and backlink building. Each component contributes to higher rankings and better performance.</p>

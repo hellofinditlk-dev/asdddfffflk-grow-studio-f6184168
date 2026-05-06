@@ -18,6 +18,7 @@ const BlogPost41 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">Digital Marketing for Small Businesses in Sri Lanka — Complete Starter Guide (2026)</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
+            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agency</Link> in Sri Lanka? Cypher Digital is among the trusted <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agencies Sri Lanka</Link> businesses rely on, ranking with the top <Link to="/" className="text-primary font-semibold hover:underline">digital agencies</Link> for measurable growth.</p>
             <p>If you run a small business in Sri Lanka — a salon, restaurant, tuition class, boutique, construction company, or professional service — you've probably felt the pressure to "get online." Your competitors are running Facebook ads. Customers are Googling before they buy. And you're not sure where to start.</p>
             <p>This guide is for small business owners new to digital marketing. We'll tell you exactly what to do, in what order, with realistic costs.</p>
 

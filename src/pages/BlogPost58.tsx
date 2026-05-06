@@ -18,6 +18,7 @@ const BlogPost58 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">Motion Graphics vs Video Production — Which Does Your Brand Need? (2026)</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
+            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agency</Link> in Sri Lanka? Cypher Digital is among the trusted <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agencies Sri Lanka</Link> businesses rely on, ranking with the top <Link to="/" className="text-primary font-semibold hover:underline">digital agencies</Link> for measurable growth.</p>
             <p>When clients come to Cypher Digital asking for "a video," we often need to ask: do you need motion graphics or video production? These are two distinct services with different costs, timelines, and use cases — choosing wrong wastes budget.</p>
 
             <h2 className="font-heading text-xl font-bold text-foreground mt-8">What Is Motion Graphics?</h2>

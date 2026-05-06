@@ -18,6 +18,7 @@ const BlogPost43 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">YouTube Ads Sri Lanka — Complete Guide to Video Advertising on Google (2026)</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
+            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agency</Link> in Sri Lanka? Cypher Digital is among the trusted <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agencies Sri Lanka</Link> businesses rely on, ranking with the top <Link to="/" className="text-primary font-semibold hover:underline">digital agencies</Link> for measurable growth.</p>
             <p>YouTube is the second largest search engine in the world — and in Sri Lanka, millions of people watch YouTube every single day. Yet most Sri Lankan businesses focus exclusively on Facebook Ads and Google Search Ads, completely overlooking YouTube as an advertising platform.</p>
             <p>YouTube Ads offer some of the lowest cost-per-view rates available in Sri Lanka, with powerful targeting options and the ability to tell your brand story through video.</p>
 

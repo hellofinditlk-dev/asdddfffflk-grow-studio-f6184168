@@ -18,6 +18,7 @@ const BlogPost48 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">Influencer Marketing in Sri Lanka — How to Find and Work with Creators (2026)</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
+            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agency</Link> in Sri Lanka? Cypher Digital is among the trusted <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agencies Sri Lanka</Link> businesses rely on, ranking with the top <Link to="/" className="text-primary font-semibold hover:underline">digital agencies</Link> for measurable growth.</p>
             <p>Influencer marketing in Sri Lanka has matured significantly. What started as brands sending free products to popular Instagram accounts has evolved into a structured marketing channel with defined rates, professional creators, and measurable results.</p>
 
             <h2 className="font-heading text-xl font-bold text-foreground mt-8">Why Influencer Marketing Works in Sri Lanka</h2>

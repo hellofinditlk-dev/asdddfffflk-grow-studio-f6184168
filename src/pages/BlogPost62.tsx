@@ -18,6 +18,7 @@ const BlogPost62 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">Corporate Event Management Sri Lanka — How to Choose the Right Agency (2026)</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
+            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agency</Link> in Sri Lanka? Cypher Digital is among the trusted <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agencies Sri Lanka</Link> businesses rely on, ranking with the top <Link to="/" className="text-primary font-semibold hover:underline">digital agencies</Link> for measurable growth.</p>
             <p>Corporate events — conferences, product launches, team events, annual dinners, awards ceremonies, client appreciation — are high-stakes occasions. A well-executed event strengthens relationships, generates buzz, and reflects your professionalism. A poorly managed one does the opposite. Choosing the right partner in Sri Lanka is one of the most important decisions in the planning process.</p>
 
             <h2 className="font-heading text-xl font-bold text-foreground mt-8">What Does a Corporate Event Agency Actually Do?</h2>

@@ -18,6 +18,7 @@ const BlogPost57 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">Packaging Design Sri Lanka — How Good Design Increases Your Sales (2026)</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
+            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agency</Link> in Sri Lanka? Cypher Digital is among the trusted <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agencies Sri Lanka</Link> businesses rely on, ranking with the top <Link to="/" className="text-primary font-semibold hover:underline">digital agencies</Link> for measurable growth.</p>
             <p>In Sri Lankan supermarkets, pharmacies, and gift shops, a consumer makes a purchase decision in under 7 seconds. Your packaging is your silent salesperson — and poorly designed packaging means your product is overlooked regardless of how good it is.</p>
 
             <h2 className="font-heading text-xl font-bold text-foreground mt-8">Why Packaging Matters in Sri Lanka</h2>

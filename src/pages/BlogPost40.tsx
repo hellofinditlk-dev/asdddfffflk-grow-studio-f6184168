@@ -18,6 +18,7 @@ const BlogPost40 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">Google My Business Optimization Guide for Sri Lankan Businesses (2026)</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
+            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agency</Link> in Sri Lanka? Cypher Digital is among the trusted <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agencies Sri Lanka</Link> businesses rely on, ranking with the top <Link to="/" className="text-primary font-semibold hover:underline">digital agencies</Link> for measurable growth.</p>
             <p>When someone in Colombo, Maharagama, or Nugegoda searches for a business like yours on Google, the first thing they see is the Google Maps results — a list of three local businesses shown before any website results. This is the "Local Pack," one of the most valuable pieces of digital real estate available to any Sri Lankan business.</p>
             <p>The tool that controls whether your business appears there is <strong>Google Business Profile</strong> (formerly Google My Business). It's free, takes a few hours to set up properly, and can generate consistent enquiries.</p>
 

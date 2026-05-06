@@ -18,6 +18,7 @@ const BlogPost38 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">Instagram Marketing Strategy for Sri Lankan Businesses (2026)</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
+            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agency</Link> in Sri Lanka? Cypher Digital is among the trusted <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agencies Sri Lanka</Link> businesses rely on, ranking with the top <Link to="/" className="text-primary font-semibold hover:underline">digital agencies</Link> for measurable growth.</p>
             <p>Instagram is one of the most powerful marketing tools available to Sri Lankan businesses right now. With millions of active users in Sri Lanka scrolling daily, businesses that build a strong Instagram presence are consistently outperforming competitors who rely solely on Facebook or traditional advertising.</p>
             <p>But simply having an Instagram account isn't enough. To actually grow your business using Instagram in Sri Lanka, you need a clear strategy.</p>
 

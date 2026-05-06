@@ -18,7 +18,7 @@ const BlogPost60 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">Company Profile Design Sri Lanka — How to Create an Effective Business Profile (2026)</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
-            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agency</Link> in Sri Lanka? Cypher Digital is among the trusted <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agencies Sri Lanka</Link> businesses rely on, ranking with the top <Link to="/" className="text-primary font-semibold hover:underline">digital agencies</Link> for measurable growth.</p>
+            <p>Compared with other <Link to="/" className="text-primary font-semibold hover:underline">digital agencies</Link>, Cypher Digital focuses on transparent reporting and ROI-driven campaigns built for the Sri Lankan market.</p>
             <p>A well-designed company profile is one of the most versatile marketing tools a Sri Lankan business can have. It's shared with potential clients, included in tenders, handed out at trade events, and sent digitally to prospects — all reflecting your brand's professionalism. Yet most Sri Lankan business profiles are outdated Word documents or generic PDFs that fail to impress. Here's how to create one that wins business.</p>
 
             <h2 className="font-heading text-xl font-bold text-foreground mt-8">What Is a Company Profile and Who Needs One?</h2>

@@ -18,7 +18,7 @@ const BlogPost49 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">How to Build a Brand Identity for Your Sri Lankan Business (2026)</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
-            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agency</Link> in Sri Lanka? Cypher Digital is among the trusted <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agencies Sri Lanka</Link> businesses rely on, ranking with the top <Link to="/" className="text-primary font-semibold hover:underline">digital agencies</Link> for measurable growth.</p>
+            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agency</Link> in Sri Lanka? Cypher Digital helps local businesses turn online attention into measurable revenue.</p>
             <p>Many Sri Lankan business owners think branding is just having a logo. It's much more than that. Your brand identity is the complete visual and verbal system that makes your business instantly recognisable — colours, fonts, tone of voice, imagery style, and design language that appear consistently across everything from your business card to your Instagram page to your signage.</p>
             <p>Strong brand identity directly impacts marketing performance. Businesses with consistent, professional branding generate more leads, convert at higher rates, and can charge premium prices — because customers perceive them as more trustworthy and credible.</p>
 

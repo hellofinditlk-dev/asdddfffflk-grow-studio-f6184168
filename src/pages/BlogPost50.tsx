@@ -18,7 +18,7 @@ const BlogPost50 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">Event Marketing Sri Lanka — How to Promote Your Event Online (2026)</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
-            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agency</Link> in Sri Lanka? Cypher Digital is among the trusted <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agencies Sri Lanka</Link> businesses rely on, ranking with the top <Link to="/" className="text-primary font-semibold hover:underline">digital agencies</Link> for measurable growth.</p>
+            <p>Cypher Digital is among the trusted <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agencies Sri Lanka</Link> businesses rely on to grow consistent leads and sales.</p>
             <p>Whether you're organising a corporate conference, a product launch, a concert, a wedding expo, or a charity fundraiser — digital marketing is how you fill seats in Sri Lanka in 2026. The businesses and organisers consistently selling out events are doing so through targeted digital campaigns.</p>
 
             <h2 className="font-heading text-xl font-bold text-foreground mt-8">Start Promoting Earlier Than You Think</h2>

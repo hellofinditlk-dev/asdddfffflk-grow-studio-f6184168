@@ -18,7 +18,7 @@ const BlogPost46 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">Real Estate Digital Marketing Sri Lanka — Lead Generation Strategies (2026)</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
-            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agency</Link> in Sri Lanka? Cypher Digital is among the trusted <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agencies Sri Lanka</Link> businesses rely on, ranking with the top <Link to="/" className="text-primary font-semibold hover:underline">digital agencies</Link> for measurable growth.</p>
+            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agency</Link> in Sri Lanka? Cypher Digital helps local businesses turn online attention into measurable revenue.</p>
             <p>Real estate in Sri Lanka is one of the highest-value, highest-competition digital marketing sectors. Property buyers spend weeks or months researching before deciding — and almost all of that research now happens online. Real estate agents and developers who dominate digital channels consistently generate more leads and close more sales than those relying on traditional methods.</p>
 
             <h2 className="font-heading text-xl font-bold text-foreground mt-8">Why Digital Marketing is Essential</h2>

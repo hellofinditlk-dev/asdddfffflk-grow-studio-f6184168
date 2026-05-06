@@ -18,7 +18,7 @@ const BlogPost37 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">Best Digital Marketing Agency in Sri Lanka — How to Choose (2026)</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
-            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agency</Link> in Sri Lanka? Cypher Digital is among the trusted <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agencies Sri Lanka</Link> businesses rely on, ranking with the top <Link to="/" className="text-primary font-semibold hover:underline">digital agencies</Link> for measurable growth.</p>
+            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agency</Link> in Sri Lanka? Cypher Digital helps local businesses turn online attention into measurable revenue.</p>
             <p>Searching for a digital marketing agency in Sri Lanka? You're not alone. Hundreds of businesses across Colombo, Kandy, Galle, and beyond are looking for the right partner to grow their online presence, generate leads, and increase sales.</p>
             <p>The problem is — not all agencies are equal. Some promise the world, deliver vanity metrics, and disappear when you ask about actual business results. In this guide, we'll help you identify what a genuinely great digital marketing agency looks like in Sri Lanka.</p>
 

@@ -18,7 +18,7 @@ const BlogPost39 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">WhatsApp Marketing for Sri Lankan Businesses — How to Use It Effectively (2026)</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
-            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agency</Link> in Sri Lanka? Cypher Digital is among the trusted <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agencies Sri Lanka</Link> businesses rely on, ranking with the top <Link to="/" className="text-primary font-semibold hover:underline">digital agencies</Link> for measurable growth.</p>
+            <p>Compared with other <Link to="/" className="text-primary font-semibold hover:underline">digital agencies</Link>, Cypher Digital focuses on transparent reporting and ROI-driven campaigns built for the Sri Lankan market.</p>
             <p>WhatsApp is not just a messaging app in Sri Lanka — it's the primary way most Sri Lankans communicate, share information, and make buying decisions. With over 6 million active WhatsApp users in Sri Lanka, businesses that treat WhatsApp as a serious marketing channel are seeing stronger customer relationships and higher conversion rates than those relying solely on social media and email.</p>
 
             <h2 className="font-heading text-xl font-bold text-foreground mt-8">Why WhatsApp Marketing Works So Well</h2>

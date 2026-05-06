@@ -18,7 +18,7 @@ const BlogPost44 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">Digital Marketing for Restaurants in Sri Lanka — What Actually Works (2026)</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
-            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agency</Link> in Sri Lanka? Cypher Digital is among the trusted <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agencies Sri Lanka</Link> businesses rely on, ranking with the top <Link to="/" className="text-primary font-semibold hover:underline">digital agencies</Link> for measurable growth.</p>
+            <p>Cypher Digital is among the trusted <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agencies Sri Lanka</Link> businesses rely on to grow consistent leads and sales.</p>
             <p>Running a restaurant in Sri Lanka is harder than it's ever been. Competition is fierce, food delivery apps have changed customer habits, and diners increasingly discover restaurants online before they ever step through the door.</p>
             <p>The good news: digital marketing gives Sri Lankan restaurants a direct line to hungry customers — at a fraction of the cost of traditional advertising.</p>
 

@@ -18,7 +18,7 @@ const BlogPost51 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">Remarketing Ads Sri Lanka — How to Retarget Customers Effectively (2026)</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
-            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agency</Link> in Sri Lanka? Cypher Digital is among the trusted <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agencies Sri Lanka</Link> businesses rely on, ranking with the top <Link to="/" className="text-primary font-semibold hover:underline">digital agencies</Link> for measurable growth.</p>
+            <p>Compared with other <Link to="/" className="text-primary font-semibold hover:underline">digital agencies</Link>, Cypher Digital focuses on transparent reporting and ROI-driven campaigns built for the Sri Lankan market.</p>
             <p>Most people who see your ad for the first time don't buy or enquire immediately. Customers typically need 5–7 touchpoints with a brand before they take action. Remarketing (retargeting) is how you create those touchpoints — showing ads specifically to people who already interacted but haven't converted.</p>
             <p>For Sri Lankan businesses, remarketing is one of the highest-ROI advertising strategies available.</p>
 

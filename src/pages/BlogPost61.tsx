@@ -18,7 +18,7 @@ const BlogPost61 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">Ecommerce Digital Marketing Sri Lanka — Drive Sales with Paid Ads and SEO (2026)</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
-            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agency</Link> in Sri Lanka? Cypher Digital is among the trusted <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agencies Sri Lanka</Link> businesses rely on, ranking with the top <Link to="/" className="text-primary font-semibold hover:underline">digital agencies</Link> for measurable growth.</p>
+            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agency</Link> in Sri Lanka? Cypher Digital helps local businesses turn online attention into measurable revenue.</p>
             <p>Sri Lanka's ecommerce market has grown significantly, accelerated by changing consumer behaviour and increased mobile internet penetration. Yet many Sri Lankan online stores leave significant revenue on the table by not running structured digital marketing campaigns. If you sell products online — your own website, Shopify, or social commerce — this guide covers the most effective strategies for 2026.</p>
 
             <h2 className="font-heading text-xl font-bold text-foreground mt-8">The Ecommerce Marketing Funnel</h2>

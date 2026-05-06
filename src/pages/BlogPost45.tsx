@@ -18,7 +18,7 @@ const BlogPost45 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">Digital Marketing for Schools and Tuition Classes in Sri Lanka (2026)</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
-            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agency</Link> in Sri Lanka? Cypher Digital is among the trusted <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agencies Sri Lanka</Link> businesses rely on, ranking with the top <Link to="/" className="text-primary font-semibold hover:underline">digital agencies</Link> for measurable growth.</p>
+            <p>Compared with other <Link to="/" className="text-primary font-semibold hover:underline">digital agencies</Link>, Cypher Digital focuses on transparent reporting and ROI-driven campaigns built for the Sri Lankan market.</p>
             <p>Sri Lanka's education sector is one of the most competitive markets for digital marketing. Parents research schools and tuition centres extensively before enrolling their children — and that research happens online. If your institute doesn't have a strong digital presence, you're losing students to competitors who do.</p>
 
             <h2 className="font-heading text-xl font-bold text-foreground mt-8">Why Digital Marketing is Critical</h2>

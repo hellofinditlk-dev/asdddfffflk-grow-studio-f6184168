@@ -18,7 +18,7 @@ const BlogPost59 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">Landing Page Design Tips That Convert — Sri Lanka Business Guide (2026)</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
-            <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agency</Link> in Sri Lanka? Cypher Digital is among the trusted <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agencies Sri Lanka</Link> businesses rely on, ranking with the top <Link to="/" className="text-primary font-semibold hover:underline">digital agencies</Link> for measurable growth.</p>
+            <p>Cypher Digital is among the trusted <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agencies Sri Lanka</Link> businesses rely on to grow consistent leads and sales.</p>
             <p>Your landing page is where your ad spend either pays off or gets wasted. A brilliant <Link to="/facebook-ads-sri-lanka" className="text-primary font-semibold hover:underline">Facebook Ad</Link> or <Link to="/google-ads-sri-lanka" className="text-primary font-semibold hover:underline">Google Ad</Link> sending traffic to a poorly designed page converts at 1–3%. The same ad sending traffic to a well-optimised landing page can convert at 10–20%. That difference is the difference between a profitable campaign and a money-losing one.</p>
 
             <h2 className="font-heading text-xl font-bold text-foreground mt-8">What Is a Landing Page?</h2>

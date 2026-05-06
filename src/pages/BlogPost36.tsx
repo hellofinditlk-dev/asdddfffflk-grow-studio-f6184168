@@ -19,10 +19,10 @@ const BlogPost36 = () => (
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
             <p>If you're a business owner in Sri Lanka researching digital marketing, one of the first questions you'll ask is: <em>how much does it actually cost?</em></p>
-            <p>The honest answer is — it depends on what services you need, the size of your business, and the agency you work with. But in this guide, we'll break down realistic pricing for every major digital marketing service available in Sri Lanka in 2026, so you can plan your budget confidently.</p>
+            <p>The honest answer is — it depends on what services you need, the size of your business, and the <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agency</Link> you work with. But in this guide, we'll break down realistic pricing for every major digital marketing service available in Sri Lanka in 2026, so you can plan your budget confidently.</p>
 
             <h2 className="font-heading text-xl font-bold text-foreground mt-8">Why Businesses in Sri Lanka Are Investing in Digital Marketing</h2>
-            <p>Before we get into pricing, it helps to understand why this investment matters. Sri Lanka has over 8 million active social media users, and Google searches for local products and services are growing every year. Businesses that rely only on word-of-mouth or traditional advertising are losing customers to competitors who show up online.</p>
+            <p>Before we get into pricing, it helps to understand why this investment matters. Sri Lanka has over 8 million active social media users, and Google searches for local products and services are growing every year. Businesses that rely only on word-of-mouth or traditional advertising are losing customers to competitors who show up online — which is why working with experienced <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agencies Sri Lanka</Link> trusts has become essential.</p>
             <p>At Cypher Digital, we work with businesses across Colombo, Maharagama, Nugegoda, and the Western Province to build digital campaigns that generate real, measurable results. Whether you're a restaurant, a salon, a school, or a real estate developer — digital marketing is the most cost-effective way to grow in Sri Lanka today.</p>
 
             <h2 className="font-heading text-xl font-bold text-foreground mt-8">Digital Marketing Pricing in Sri Lanka — Full Breakdown</h2>
@@ -66,7 +66,7 @@ const BlogPost36 = () => (
 
             <h2 className="font-heading text-xl font-bold text-foreground mt-8">Ready to Get a Custom Quote?</h2>
             <p>Every business is different. The best way to know your exact costs is to <Link to="/contact" className="text-primary font-semibold hover:underline">book a free consultation</Link> with our team. We'll assess your business, your competition, and your goals — and build a package that makes sense for your budget.</p>
-            <p>For a deeper view of the Sri Lankan ad landscape, see our <Link to="/advertising-in-sri-lanka" className="text-primary font-semibold hover:underline">advertising in Sri Lanka</Link> pillar guide.</p>
+            <p>For a deeper view of the Sri Lankan ad landscape, see our <Link to="/advertising-in-sri-lanka" className="text-primary font-semibold hover:underline">advertising in Sri Lanka</Link> pillar guide, or compare top <Link to="/" className="text-primary font-semibold hover:underline">digital agencies</Link> before making your final decision.</p>
           </div>
           <div className="mt-14 pt-10 border-t border-border">
             <h2 className="font-heading text-lg font-bold mb-5">Related Articles</h2>

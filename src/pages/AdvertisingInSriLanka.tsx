@@ -969,7 +969,7 @@ const AdvertisingInSriLanka = () => {
             Future of Advertising in Sri Lanka
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-4">
-            The future of <a href="https://cypherdigital.lk/" className="text-primary font-semibold hover:underline">advertising in Sri Lanka</a> will be heavily influenced by technology. Key developments include:
+            The future of advertising in Sri Lanka will be heavily influenced by technology. Key developments include:
           </p>
           <div className="grid sm:grid-cols-2 gap-4 mb-6">
             {[

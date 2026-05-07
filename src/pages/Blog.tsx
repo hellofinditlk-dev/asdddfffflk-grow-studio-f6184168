@@ -550,6 +550,41 @@ const blogPosts = [
     date: "2026-05-06",
     keyword: "Digital Marketing Agency",
   },
+  {
+    slug: "traditional-vs-digital-advertising-sri-lanka",
+    title: "Traditional vs Digital Advertising in Sri Lanka — Which Delivers Better ROI? (2026)",
+    excerpt: "Compare TV, radio, newspaper and billboard against Facebook, Google, TikTok and SEO. Cost, reach, targeting and ROI — which wins in 2026?",
+    date: "2026-05-07",
+    keyword: "Advertising Sri Lanka",
+  },
+  {
+    slug: "best-advertising-agencies-sri-lanka",
+    title: "Best Advertising Agencies in Sri Lanka — How to Choose the Right One (2026)",
+    excerpt: "Compare top advertising agencies in Sri Lanka by service, pricing, reporting, red flags and questions to ask before hiring.",
+    date: "2026-05-07",
+    keyword: "Advertising Agencies Sri Lanka",
+  },
+  {
+    slug: "advertising-cost-sri-lanka-2026",
+    title: "How Much Does Advertising Cost in Sri Lanka? — Complete 2026 Price Guide",
+    excerpt: "Real 2026 pricing for Facebook, Google, TikTok, YouTube, TV, radio, newspaper and billboard advertising in Sri Lanka.",
+    date: "2026-05-07",
+    keyword: "Advertising Cost Sri Lanka",
+  },
+  {
+    slug: "online-advertising-sri-lanka-platform-guide",
+    title: "Online Advertising in Sri Lanka — Complete Platform Guide for Businesses (2026)",
+    excerpt: "Every major online advertising platform in Sri Lanka — Facebook, Instagram, Google, YouTube, TikTok, Display and WhatsApp — costs, audiences and best fit.",
+    date: "2026-05-07",
+    keyword: "Online Advertising Sri Lanka",
+  },
+  {
+    slug: "advertising-mistakes-sri-lankan-businesses",
+    title: "Advertising Mistakes Sri Lankan Businesses Make — And How to Avoid Them (2026)",
+    excerpt: "The 10 most common advertising mistakes Sri Lankan businesses make — and exactly how to fix each one to stop wasting budget.",
+    date: "2026-05-07",
+    keyword: "Advertising Mistakes Sri Lanka",
+  },
 ];
 
 const Blog = () => (

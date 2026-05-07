@@ -210,7 +210,7 @@ const AdvertisingInSriLanka = () => {
               </p>
             </div>
             <p className="text-muted-foreground leading-relaxed text-lg mb-4">
-              <a href="https://cypherdigital.lk/" className="text-primary font-semibold hover:underline">Advertising in Sri Lanka</a> has evolved dramatically over the past decade. Businesses are no longer limited to traditional advertising channels such as television, radio, and newspapers. Today, digital platforms allow businesses to reach their target audience more efficiently through data-driven campaigns.
+              Advertising in Sri Lanka has evolved dramatically over the past decade. Businesses are no longer limited to traditional advertising channels such as television, radio, and newspapers. Today, <a href="https://cypherdigital.lk/" className="text-primary font-semibold hover:underline">Cypher Digital</a> helps brands reach their target audience more efficiently through data-driven campaigns across digital platforms.
             </p>
             <p className="text-muted-foreground leading-relaxed text-lg mb-4">
               Companies that invest in modern advertising strategies can increase brand awareness, attract customers, and generate measurable business growth. Whether you run a hotel, restaurant, ecommerce store, or real estate business, advertising plays a critical role in connecting your brand with potential customers.

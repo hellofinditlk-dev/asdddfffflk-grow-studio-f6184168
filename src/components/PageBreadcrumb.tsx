@@ -10,7 +10,7 @@ interface PageBreadcrumbProps {
 }
 
 const PageBreadcrumb = ({ items }: PageBreadcrumbProps) => (
-  <nav className="bg-secondary border-b border-border" aria-label="Breadcrumb">
+  <nav className="bg-secondary border-b border-border mt-16" aria-label="Breadcrumb">
     <div className="container mx-auto px-4 py-3">
       <ol className="flex items-center gap-2 text-xs text-muted-foreground">
         <li>

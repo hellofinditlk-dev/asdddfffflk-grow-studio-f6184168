@@ -6,8 +6,7 @@ export interface BlogPost {
   keyword: string;
 }
 
-export 
-const blogPosts: BlogPost[] = [
+export const blogPosts: BlogPost[] = [
   {
     slug: "why-social-media-management-important-businesses-sri-lanka",
     title: "Why Social Media Management is Important for Businesses in Sri Lanka",
@@ -590,5 +589,3 @@ const blogPosts: BlogPost[] = [
     keyword: "Advertising Mistakes Sri Lanka",
   },
 ];
-
-export { blogPosts };

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import SEOHead from "@/components/SEOHead";
 import InquiryForm from "@/components/InquiryForm";
+import RelatedPosts from "@/components/RelatedPosts";
 import { useEffect } from "react";
 import {
   Megaphone, CheckCircle, BarChart3, Users, TrendingUp, Zap, Shield, Clock,
@@ -866,6 +867,11 @@ const SocialMediaManagement = () => {
           </div>
         </div>
       </section>
+      <RelatedPosts
+        keywords={["Social Media Management Sri Lanka", "Instagram Marketing Sri Lanka", "Sinhala Social Media Sri Lanka", "Organic vs Paid Social Sri Lanka"]}
+        heading="More on Social Media Marketing"
+        intro="Platform strategies, posting schedules, and content tactics for Sri Lankan brands on Facebook, Instagram and TikTok."
+      />
     </div>
   );
 };

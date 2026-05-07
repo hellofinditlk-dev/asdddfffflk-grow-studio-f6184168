@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import SEOHead from "@/components/SEOHead";
 import InquiryForm from "@/components/InquiryForm";
+import RelatedPosts from "@/components/RelatedPosts";
 import { useEffect } from "react";
 import {
   Video, CheckCircle, BarChart3, Users, TrendingUp, Zap, Shield, Clock,
@@ -679,6 +680,11 @@ const VideoProduction = () => {
           </Button>
         </div>
       </section>
+      <RelatedPosts
+        keywords={["Video Production Sri Lanka", "Motion Graphics Sri Lanka", "YouTube Ads Sri Lanka"]}
+        heading="More on Video & Motion"
+        intro="Strategy, formats, and production guides for video content that converts."
+      />
     </div>
   );
 };

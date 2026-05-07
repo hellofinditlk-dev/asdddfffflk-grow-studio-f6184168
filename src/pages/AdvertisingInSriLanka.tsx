@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import SEOHead from "@/components/SEOHead";
 import InquiryForm from "@/components/InquiryForm";
 import PageBreadcrumb from "@/components/PageBreadcrumb";
+import RelatedPosts from "@/components/RelatedPosts";
 import { useEffect } from "react";
 import {
   TrendingUp, Users, Eye, Globe, ShoppingCart, ArrowRight, CheckCircle2,
@@ -1119,6 +1120,12 @@ const AdvertisingInSriLanka = () => {
           </div>
         </section>
       </article>
+      <RelatedPosts
+        keywords={["Advertising in Sri Lanka", "Advertising Sri Lanka", "Online Advertising Sri Lanka", "Advertising Cost Sri Lanka", "Advertising Mistakes Sri Lanka", "Advertising Agencies Sri Lanka"]}
+        heading="More on Advertising in Sri Lanka"
+        intro="In-depth guides on advertising platforms, costs, agencies and common mistakes Sri Lankan businesses make."
+        limit={6}
+      />
     </>
   );
 };

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import SEOHead from "@/components/SEOHead";
 import InquiryForm from "@/components/InquiryForm";
+import RelatedPosts from "@/components/RelatedPosts";
 import { useEffect } from "react";
 import {
   Palette, CheckCircle, BarChart3, Users, TrendingUp, Zap, Shield, Clock,
@@ -778,6 +779,11 @@ const GraphicDesign = () => {
           </div>
         </div>
       </section>
+      <RelatedPosts
+        keywords={["Graphic Design Sri Lanka", "Brand Identity Sri Lanka", "Packaging Design Sri Lanka", "Company Profile Design Sri Lanka", "Landing Page Design Sri Lanka"]}
+        heading="More on Design & Branding"
+        intro="Logo, packaging, brand identity, and design best-practices for Sri Lankan businesses."
+      />
     </div>
   );
 };

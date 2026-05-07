@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import SEOHead from "@/components/SEOHead";
 import InquiryForm from "@/components/InquiryForm";
+import RelatedPosts from "@/components/RelatedPosts";
 import { useEffect } from "react";
 import {
   Search, CheckCircle, BarChart3, Users, TrendingUp, Zap, Shield, Clock,
@@ -669,6 +670,11 @@ const SEOServices = () => {
           </Button>
         </div>
       </section>
+      <RelatedPosts
+        keywords={["SEO Services Sri Lanka", "Google My Business Sri Lanka", "Content Marketing Sri Lanka"]}
+        heading="More on SEO & Organic Growth"
+        intro="Practical SEO guides, local search tactics, and content strategies for Sri Lankan businesses."
+      />
     </div>
   );
 };

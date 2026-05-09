@@ -96,6 +96,8 @@ const Footer = () => (
 
       <div className="border-t border-border mt-12 pt-6 text-center text-xs text-muted-foreground space-y-2">
         <div className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1">
+          <Link to="/advertising-in-sri-lanka" className="hover:text-foreground transition-colors">Advertising in Sri Lanka</Link>
+          <span className="text-border">|</span>
           <Link to="/social-media-management-sri-lanka" className="hover:text-foreground transition-colors">Social Media Management Sri Lanka</Link>
           <span className="text-border">|</span>
           <Link to="/google-ads-sri-lanka" className="hover:text-foreground transition-colors">Google Ads Sri Lanka</Link>

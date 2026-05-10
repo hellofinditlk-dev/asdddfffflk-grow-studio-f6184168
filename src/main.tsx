@@ -2,11 +2,28 @@ import { createRoot } from "react-dom/client";
 import App from "./App.tsx";
 import "./index.css";
 
-// Auto-reload once when a stale dynamic import chunk fails (after a new deploy).
-window.addEventListener("vite:preloadError", () => {
-  if (!sessionStorage.getItem("chunk-reloaded")) {
+const reloadOnceForStaleChunk = () => {
+  try {
+    if (sessionStorage.getItem("chunk-reloaded")) return;
     sessionStorage.setItem("chunk-reloaded", "1");
-    window.location.reload();
+  } catch {
+    return;
+  }
+
+  window.location.reload();
+};
+
+window.addEventListener("error", (event) => {
+  const message = event.message || String(event.error || "");
+  if (message.includes("Failed to fetch dynamically imported module")) {
+    reloadOnceForStaleChunk();
+  }
+});
+
+window.addEventListener("unhandledrejection", (event) => {
+  const reason = event.reason instanceof Error ? event.reason.message : String(event.reason || "");
+  if (reason.includes("Failed to fetch dynamically imported module")) {
+    reloadOnceForStaleChunk();
   }
 });
 

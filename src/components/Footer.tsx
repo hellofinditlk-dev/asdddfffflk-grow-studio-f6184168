@@ -104,7 +104,7 @@ const Footer = () => (
           <span className="text-border">|</span>
           <Link to="/tiktok-marketing-sri-lanka" className="hover:text-foreground transition-colors">TikTok Marketing Sri Lanka</Link>
         </div>
-        <p>© 2024 Cypher Digital — <Link to="/" className="hover:text-foreground transition-colors">Digital Marketing Agency Sri Lanka</Link></p>
+        <p>© 2020 Cypher Digital — <Link to="/" className="hover:text-foreground transition-colors">Digital Marketing Agency Sri Lanka</Link></p>
       </div>
     </div>
   </footer>

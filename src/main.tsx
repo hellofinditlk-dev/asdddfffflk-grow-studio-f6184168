@@ -2,6 +2,14 @@ import { createRoot } from "react-dom/client";
 import App from "./App.tsx";
 import "./index.css";
 
+// Auto-reload once when a stale dynamic import chunk fails (after a new deploy).
+window.addEventListener("vite:preloadError", () => {
+  if (!sessionStorage.getItem("chunk-reloaded")) {
+    sessionStorage.setItem("chunk-reloaded", "1");
+    window.location.reload();
+  }
+});
+
 const rootEl = document.getElementById("root")!;
 // Remove server-injected H1 (from Netlify edge function) before React renders,
 // so crawlers that execute JS don't see two identical H1s on the page.

@@ -296,7 +296,7 @@ const EventManagement = () => {
   return (
     <div className="pt-16">
       <SEOHead
-        title="Event Management Sri Lanka (2026) | Best Event Management Companies in Sri Lanka | Cypher Digital"
+        title="Event Management Sri Lanka"
         description="Looking for the best event management companies in Sri Lanka? Cypher Digital is a top-rated event management Sri Lanka company offering corporate events, product launches, brand activations & wedding planning. Free consultation — call 070 177 2626."
         canonical={canonical}
       />

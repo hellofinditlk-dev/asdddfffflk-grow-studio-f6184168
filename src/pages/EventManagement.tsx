@@ -6,6 +6,7 @@ import {
   CheckCircle, Zap, Shield, Clock, Users, BarChart3,
   ArrowRight, MapPin, MessageCircle, Calendar, Briefcase,
   Heart, Megaphone, Star, Target, TrendingUp, Award, Lightbulb,
+  XCircle, Building2, ShoppingBag, Landmark, HeartPulse, GraduationCap, Cpu,
 } from "lucide-react";
 import mascotGlasses from "@/assets/mascot-glasses.jpeg";
 import { Button } from "@/components/ui/button";
@@ -118,6 +119,60 @@ const faqs = [
   { q: "How can I contact you for event planning?", a: "You can reach us instantly via WhatsApp at 070 177 2626 for a free consultation. We typically respond within 1 hour during business hours." },
   { q: "Do you handle wedding planning in Sri Lanka?", a: "Yes, we offer comprehensive wedding planning Sri Lanka services including venue selection, decoration, theme design, vendor coordination, entertainment, and full day-of management." },
   { q: "Can you help with event marketing and promotion?", a: "Absolutely. Our event marketing Sri Lanka services include social media promotion, digital advertising, email campaigns, content creation, and post-event amplification to maximize attendance and ROI." },
+  { q: "What are the best event management companies in Sri Lanka?", a: "The best event management companies in Sri Lanka combine professional logistics with strong marketing capabilities. Cypher Digital stands out as one of the top choices — the only event management company in Sri Lanka that fully integrates digital marketing, lead generation, and content production into every event across Colombo, Kandy, Galle, and island-wide locations." },
+  { q: "What services do event management companies in Sri Lanka provide?", a: "Standard event management services in Sri Lanka include venue sourcing, vendor coordination, decoration, AV production, catering management, and on-site supervision. Cypher Digital additionally provides integrated digital marketing, pre-event promotion, live social media coverage, post-event content production, lead generation, and full ROI analytics." },
+  { q: "How far in advance should I book an event management company in Sri Lanka?", a: "We recommend contacting us at least 3 months ahead for mid-size events and 6 months ahead for large conferences, product launches, or weddings. Shorter timelines can be accommodated — contact us to discuss your situation." },
+  { q: "How do I choose the right event management company in Sri Lanka?", a: "Evaluate proven portfolio and client reviews, island-wide vendor network, dedicated event manager, transparent pricing, digital marketing capability, and post-event analytics. Cypher Digital offers all of these — plus full integration with our in-house digital marketing team for maximum event ROI." },
+];
+
+const comparisonRows = [
+  { cap: "Venue & logistics management", trad: "Yes", cypher: "Yes" },
+  { cap: "Vendor coordination", trad: "Yes", cypher: "Yes" },
+  { cap: "Decoration & theme design", trad: "Yes", cypher: "Yes" },
+  { cap: "AV production", trad: "Sometimes", cypher: "Yes" },
+  { cap: "Digital marketing campaigns", trad: "No", cypher: "Yes" },
+  { cap: "Social media promotion", trad: "Rarely", cypher: "Always" },
+  { cap: "Lead generation strategy", trad: "No", cypher: "Yes" },
+  { cap: "Professional video production", trad: "Outsourced", cypher: "In-house" },
+  { cap: "Post-event content repurposing", trad: "No", cypher: "Yes" },
+  { cap: "ROI analytics & reporting", trad: "Limited", cypher: "Full report" },
+  { cap: "Dedicated event manager", trad: "Sometimes", cypher: "Always" },
+  { cap: "Island-wide coverage", trad: "Colombo only", cypher: "All Sri Lanka" },
+];
+
+const pricingRows = [
+  { type: "Corporate Workshop / Training", scale: "20–50 guests", price: "LKR 150,000 – 350,000" },
+  { type: "Product Launch", scale: "50–300 guests", price: "LKR 400,000 – 1,200,000" },
+  { type: "Mid-Size Conference / Seminar", scale: "100–300 guests", price: "LKR 500,000 – 1,200,000" },
+  { type: "Brand Activation / Roadshow", scale: "Varies", price: "LKR 300,000 – 1,000,000+" },
+  { type: "Award Ceremony / Gala Dinner", scale: "100–500 guests", price: "LKR 600,000 – 2,000,000" },
+  { type: "Large Corporate Conference", scale: "300–1,000+ guests", price: "LKR 1,200,000 – 3,000,000+" },
+  { type: "Wedding (Full Planning)", scale: "100–500 guests", price: "LKR 500,000 – 3,000,000+" },
+  { type: "Private / Social Event", scale: "30–200 guests", price: "LKR 150,000 – 800,000" },
+];
+
+const industries = [
+  { icon: <Building2 className="w-5 h-5" />, title: "Hospitality & Tourism", desc: "Hotel launches, travel trade events, tourism activations, resort promotions, MICE events." },
+  { icon: <ShoppingBag className="w-5 h-5" />, title: "FMCG & Retail", desc: "Product launches, in-store activations, consumer promotions, trade shows, sampling campaigns." },
+  { icon: <Landmark className="w-5 h-5" />, title: "Banking & Finance", desc: "Investor forums, AGMs, award ceremonies, compliance events, staff conferences." },
+  { icon: <HeartPulse className="w-5 h-5" />, title: "Healthcare & Pharma", desc: "Medical conferences, CME events, product launches, health awareness campaigns." },
+  { icon: <GraduationCap className="w-5 h-5" />, title: "Education", desc: "University open days, graduation ceremonies, education fairs, student recruitment events." },
+  { icon: <Cpu className="w-5 h-5" />, title: "Technology", desc: "Tech launches, developer conferences, startup pitching events, digital summits." },
+];
+
+const expertTips = [
+  { title: "Choose the Right Season for Your Event Location", desc: "Sri Lanka has two monsoons. The Southwest Monsoon (May–September) impacts Colombo, Galle and the Hill Country; the Northeast Monsoon (October–February) affects the North and East. Time outdoor events to avoid local monsoons." },
+  { title: "Book Venues 3–6 Months in Advance", desc: "Top venues — especially five-star hotel ballrooms in Colombo — book out fast during peak corporate (Oct–Mar) and wedding (Dec–Apr) season. Start 3 months ahead for mid-size events, 6 months for large conferences or weddings." },
+  { title: "Budget for Marketing as Part of the Event", desc: "The most successful events in Sri Lanka allocate 15–25% of total budget to marketing and promotion. Pre-event awareness campaigns improve attendance, engagement, and post-event ROI." },
+  { title: "Always Have a Contingency Plan", desc: "Power outages, sudden rain, vendor cancellations, and traffic disruptions are real risks. Professional event management companies in Sri Lanka build in backup generators, wet-weather contingencies, substitute vendor lists, and live communication protocols." },
+  { title: "Capture Every Moment on Professional Photo & Video", desc: "Photos and videos captured at your event should fuel your brand's social media, website, and ads for months. Budget for professional photography and a highlight video — the ROI is substantial." },
+  { title: "Follow Up Within 48 Hours Post-Event", desc: "The 48 hours after your event are the highest-value window for lead conversion. Deploy thank-you emails, share highlights on social media, run retargeting, and activate CRM sequences while attention is fresh." },
+];
+
+const reviews = [
+  { stars: 5, text: "Cypher Digital managed our annual corporate conference in Colombo flawlessly. From the venue setup to the post-event video they delivered in 48 hours — every detail was perfect. They are genuinely one of the best event management companies in Sri Lanka.", name: "Priya D.", role: "Head of Marketing, FMCG Company" },
+  { stars: 5, text: "Our product launch generated more media coverage and social media buzz than any previous launch, thanks to Cypher Digital's pre-event marketing campaigns. Highly recommend for anyone looking for event planning in Sri Lanka.", name: "Kasun R.", role: "Director, Technology Brand" },
+  { stars: 5, text: "They planned and executed our wedding in Kandy beautifully. Every vendor they recommended was professional, the decoration exceeded our expectations, and the video they produced is something we will treasure forever.", name: "Nirosha & Dinesh", role: "Wedding Clients, Kandy" },
 ];
 
 const trustPoints = [
@@ -160,12 +215,27 @@ const EventManagement = () => {
       {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        name: "Cypher Digital",
+        name: "Cypher Digital — Event Management Sri Lanka",
+        description: "Top event management company in Sri Lanka specializing in corporate events, product launches, brand activations and wedding planning.",
         url: "https://cypherdigital.lk",
         telephone: "+94701772626",
         address: { "@type": "PostalAddress", addressLocality: "Colombo", addressCountry: "LK" },
         areaServed: { "@type": "Country", name: "Sri Lanka" },
-        priceRange: "LKR 200,000 - LKR 2,000,000+",
+        priceRange: "LKR 150,000 – LKR 3,000,000+",
+        aggregateRating: { "@type": "AggregateRating", ratingValue: "4.9", reviewCount: "50" },
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        name: "Event Management Services in Sri Lanka — Cypher Digital",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Corporate Event Management Sri Lanka" },
+          { "@type": "ListItem", position: 2, name: "Product Launch Events Sri Lanka" },
+          { "@type": "ListItem", position: 3, name: "Brand Activation Sri Lanka" },
+          { "@type": "ListItem", position: 4, name: "Wedding Planning Sri Lanka" },
+          { "@type": "ListItem", position: 5, name: "Conference & Seminar Management Sri Lanka" },
+          { "@type": "ListItem", position: 6, name: "Exhibition & Trade Show Management Sri Lanka" },
+        ],
       },
       {
         "@context": "https://schema.org",
@@ -226,8 +296,8 @@ const EventManagement = () => {
   return (
     <div className="pt-16">
       <SEOHead
-        title="Event Management Sri Lanka (2026) | Marketing-Driven Event Planning | Cypher Digital"
-        description="Sri Lanka's leading marketing-driven event management company. Corporate events, product launches, brand activations & wedding planning. Free consultation via WhatsApp."
+        title="Event Management Sri Lanka (2026) | Best Event Management Companies in Sri Lanka | Cypher Digital"
+        description="Looking for the best event management companies in Sri Lanka? Cypher Digital is a top-rated event management Sri Lanka company offering corporate events, product launches, brand activations & wedding planning. Free consultation — call 070 177 2626."
         canonical={canonical}
       />
 
@@ -581,6 +651,147 @@ const EventManagement = () => {
                 </summary>
                 <p className="text-sm text-muted-foreground mt-3 leading-relaxed">{faq.a}</p>
               </details>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Comparison: Traditional vs Cypher Digital */}
+      <section className="py-20 lg:py-28">
+        <div className="container mx-auto px-4 max-w-5xl">
+          <div className="text-center mb-12">
+            <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-4">Industry Comparison</p>
+            <h2 className="font-heading text-2xl md:text-3xl font-extrabold">How Cypher Digital Compares to Other Event Management Companies in Sri Lanka</h2>
+            <p className="text-sm text-muted-foreground mt-3 max-w-2xl mx-auto">
+              Most <strong>event companies in Sri Lanka</strong> focus on logistics. Cypher Digital combines full event management with integrated digital marketing — so every event also generates leads, brand equity, and content.
+            </p>
+          </div>
+          <div className="overflow-x-auto rounded-xl border border-border bg-card">
+            <table className="w-full text-sm min-w-[560px]">
+              <thead className="bg-foreground text-white">
+                <tr>
+                  <th className="text-left px-4 py-3 font-semibold">Capability</th>
+                  <th className="text-left px-4 py-3 font-semibold">Typical SL Event Companies</th>
+                  <th className="text-left px-4 py-3 font-semibold">Cypher Digital</th>
+                </tr>
+              </thead>
+              <tbody>
+                {comparisonRows.map((r, i) => (
+                  <tr key={i} className="border-t border-border">
+                    <td className="px-4 py-3 font-medium">{r.cap}</td>
+                    <td className="px-4 py-3 text-muted-foreground inline-flex items-center gap-2">
+                      {(r.trad === "No" || r.trad === "Rarely" || r.trad === "Outsourced" || r.trad === "Limited" || r.trad === "Colombo only") ? <XCircle className="w-4 h-4 text-destructive" /> : <CheckCircle className="w-4 h-4 text-primary/70" />}
+                      {r.trad}
+                    </td>
+                    <td className="px-4 py-3 font-medium text-primary">
+                      <span className="inline-flex items-center gap-2"><CheckCircle className="w-4 h-4" />{r.cypher}</span>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      {/* Pricing Guide */}
+      <section className="py-20 lg:py-28 bg-secondary" id="event-management-cost-sri-lanka">
+        <div className="container mx-auto px-4 max-w-5xl">
+          <div className="text-center mb-12">
+            <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-4">Pricing Guide</p>
+            <h2 className="font-heading text-2xl md:text-3xl font-extrabold">Event Management Cost in Sri Lanka — Transparent Pricing Guide</h2>
+            <p className="text-sm text-muted-foreground mt-3 max-w-2xl mx-auto">
+              "How much does event management cost in Sri Lanka?" — the honest answer is that it varies. Below is an indicative budget guide before speaking to any <strong>event management company in Sri Lanka</strong>.
+            </p>
+          </div>
+          <div className="overflow-x-auto rounded-xl border border-border bg-card">
+            <table className="w-full text-sm min-w-[560px]">
+              <thead className="bg-foreground text-white">
+                <tr>
+                  <th className="text-left px-4 py-3 font-semibold">Event Type</th>
+                  <th className="text-left px-4 py-3 font-semibold">Typical Scale</th>
+                  <th className="text-left px-4 py-3 font-semibold">Budget Range</th>
+                </tr>
+              </thead>
+              <tbody>
+                {pricingRows.map((r, i) => (
+                  <tr key={i} className="border-t border-border">
+                    <td className="px-4 py-3 font-medium">{r.type}</td>
+                    <td className="px-4 py-3 text-muted-foreground">{r.scale}</td>
+                    <td className="px-4 py-3 font-semibold text-primary">{r.price}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-muted-foreground text-center mt-6 max-w-3xl mx-auto">
+            📋 Indicative ranges only. Final pricing depends on venue, guest count, catering, AV, decoration, and marketing scope. All Cypher Digital quotations are detailed, itemized, and 100% transparent — no hidden fees. Free custom quotation within 24 hours.
+          </p>
+        </div>
+      </section>
+
+      {/* Industries */}
+      <section className="py-20 lg:py-28">
+        <div className="container mx-auto px-4 max-w-5xl">
+          <div className="text-center mb-12">
+            <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-4">Industry Expertise</p>
+            <h2 className="font-heading text-2xl md:text-3xl font-extrabold">Industries We Serve Across Sri Lanka</h2>
+            <p className="text-sm text-muted-foreground mt-3 max-w-2xl mx-auto">
+              As one of the most versatile <strong>event management companies in Sri Lanka</strong>, we understand the unique event requirements of every major sector.
+            </p>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {industries.map((item, i) => (
+              <div key={i} className="bg-card border border-border rounded-xl p-6 hover:border-primary/20 transition-colors">
+                <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center text-primary mb-4">{item.icon}</div>
+                <h3 className="font-heading text-sm font-bold mb-1.5">{item.title}</h3>
+                <p className="text-xs text-muted-foreground leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Expert Tips */}
+      <section className="py-20 lg:py-28 bg-secondary">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <div className="text-center mb-12">
+            <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-4">Expert Guide</p>
+            <h2 className="font-heading text-2xl md:text-3xl font-extrabold">How to Plan a Successful Event in Sri Lanka — Expert Tips</h2>
+            <p className="text-sm text-muted-foreground mt-3 max-w-2xl mx-auto">
+              Planning an <strong>event in Sri Lanka</strong> involves unique local factors. Here's what Cypher Digital has learned from managing 100+ events across the island.
+            </p>
+          </div>
+          <div className="space-y-4">
+            {expertTips.map((tip, i) => (
+              <div key={i} className="bg-card border border-border rounded-xl p-6 flex gap-5">
+                <div className="shrink-0 w-10 h-10 rounded-full border-2 border-primary/30 text-primary font-heading font-bold text-sm flex items-center justify-center">
+                  {String(i + 1).padStart(2, "0")}
+                </div>
+                <div>
+                  <h3 className="font-heading text-base font-bold mb-1.5">{tip.title}</h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed">{tip.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Reviews */}
+      <section className="py-20 lg:py-28">
+        <div className="container mx-auto px-4 max-w-5xl">
+          <div className="text-center mb-12">
+            <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-4">Client Feedback</p>
+            <h2 className="font-heading text-2xl md:text-3xl font-extrabold">What Our Clients Say About Our Event Management in Sri Lanka</h2>
+          </div>
+          <div className="grid md:grid-cols-3 gap-5">
+            {reviews.map((r, i) => (
+              <div key={i} className="bg-card border border-border rounded-xl p-6">
+                <div className="text-yellow-500 mb-3" aria-label={`${r.stars} stars`}>{"★".repeat(r.stars)}</div>
+                <p className="text-sm italic text-muted-foreground mb-4 leading-relaxed">"{r.text}"</p>
+                <div className="text-sm font-semibold">{r.name} <span className="text-muted-foreground font-normal">— {r.role}</span></div>
+              </div>
             ))}
           </div>
         </div>

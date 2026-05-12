@@ -175,8 +175,8 @@ const META_MAP: Record<string, { title: string; description: string; h1: string 
     h1: "Influencer Marketing Sri Lanka – Drive Real Engagement with Trusted Influencers",
   },
   "/advertising-in-sri-lanka": {
-    title: "Advertising in Sri Lanka (2026) – Complete Guide | Cypher Digital",
-    description: "The #1 guide to advertising in Sri Lanka. Learn about digital advertising costs, best platforms, targeting strategies, industry-specific marketing, and how to grow your business with Google Ads, Facebook Ads, SEO & more.",
+    title: "Advertising Sri Lanka (2026) | Advertising in Sri Lanka Guide",
+    description: "Advertising Sri Lanka guide covering Sri Lanka advertising, digital marketing, branding, SEO, social media marketing and online advertising services in Sri Lanka.",
     h1: "Advertising in Sri Lanka: The Complete Guide to Digital Advertising for Businesses",
   },
   "/contact": {

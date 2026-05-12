@@ -140,7 +140,7 @@ const META_MAP: Record<string, { title: string; description: string; h1: string 
     h1: "Label Design Sri Lanka – Professional Product Label Design Services",
   },
   "/event-management-sri-lanka": {
-    title: "Event Management Sri Lanka (2026) | Best Event Management Companies in Sri Lanka | Cypher Digital",
+    title: "Event Management Sri Lanka",
     description: "Looking for the best event management companies in Sri Lanka? Cypher Digital is a top-rated event management Sri Lanka company offering corporate events, product launches, brand activations & wedding planning. Free consultation — call 070 177 2626.",
     h1: "Event Management Sri Lanka",
   },

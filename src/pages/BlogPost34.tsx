@@ -24,7 +24,7 @@ const BlogPost34 = () => (
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
             <p>Looking for a results-driven <Link to="/" className="text-primary font-semibold hover:underline">digital marketing agency</Link>? This guide explains the strategy that actually moves the needle for Sri Lankan businesses.</p>
             <p>
-              The advertising landscape in Sri Lanka is undergoing a major transformation. Traditional media is losing effectiveness, while digital advertising is becoming the preferred choice for businesses of all sizes. Understanding this shift is critical for any business investing in <Link to="/advertising-in-sri-lanka" className="text-primary underline font-semibold">advertising in Sri Lanka</Link>.
+              The advertising landscape in Sri Lanka is undergoing a major transformation. Traditional media is losing effectiveness, while digital advertising is becoming the preferred choice for businesses of all sizes. Understanding this shift is critical for any business investing in <Link to="/advertising-in-sri-lanka" className="text-primary underline font-semibold">Advertising Sri Lanka</Link>.
             </p>
 
             <h2 className="text-foreground font-heading text-xl font-bold mt-8 mb-3">The Problem with Traditional Advertising</h2>

@@ -26,7 +26,7 @@ const BlogPost16 = () => (
             <p>High-quality design also improves advertising performance. Well-designed creatives often reduce cost per click and increase conversions.</p>
             <p>Businesses that invest in professional{" "}<Link to="/graphic-design-sri-lanka" className="text-primary font-semibold hover:underline">Graphic Design Sri Lanka</Link>{" "}services can maintain visual consistency and improve marketing effectiveness.</p>
             <p>Pair great design with{" "}<Link to="/social-media-management-sri-lanka" className="text-primary font-semibold hover:underline">social media management Sri Lanka</Link>{" "}for consistent posting, or boost reach with{" "}<Link to="/facebook-ads-sri-lanka" className="text-primary font-semibold hover:underline">Facebook Ads Sri Lanka</Link>.</p>
-            <p>For detailed insights on{" "}<Link to="/advertising-in-sri-lanka" className="text-primary font-semibold hover:underline">advertising in Sri Lanka</Link>{" "}including market data, platform comparisons, and budget strategies, explore our complete guide.</p>
+            <p>For detailed insights on{" "}<Link to="/advertising-in-sri-lanka" className="text-primary font-semibold hover:underline">Advertising Sri Lanka</Link>{" "}including market data, platform comparisons, and budget strategies, explore our complete guide.</p>
             <p>As one of the{" "}<Link to="/" className="text-primary font-semibold hover:underline">best digital marketing agencies in Sri Lanka</Link>, Cypher Digital offers expert solutions tailored to grow your business online.</p>
           </div>
           <div className="mt-14 pt-10 border-t border-border">

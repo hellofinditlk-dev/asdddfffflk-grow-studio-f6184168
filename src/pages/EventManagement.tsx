@@ -6,6 +6,7 @@ import {
   CheckCircle, Zap, Shield, Clock, Users, BarChart3,
   ArrowRight, MapPin, MessageCircle, Calendar, Briefcase,
   Heart, Megaphone, Star, Target, TrendingUp, Award, Lightbulb,
+  XCircle, Building2, ShoppingBag, Landmark, HeartPulse, GraduationCap, Cpu,
 } from "lucide-react";
 import mascotGlasses from "@/assets/mascot-glasses.jpeg";
 import { Button } from "@/components/ui/button";
@@ -120,6 +121,56 @@ const faqs = [
   { q: "Can you help with event marketing and promotion?", a: "Absolutely. Our event marketing Sri Lanka services include social media promotion, digital advertising, email campaigns, content creation, and post-event amplification to maximize attendance and ROI." },
 ];
 
+const comparisonRows = [
+  { cap: "Venue & logistics management", trad: "Yes", cypher: "Yes" },
+  { cap: "Vendor coordination", trad: "Yes", cypher: "Yes" },
+  { cap: "Decoration & theme design", trad: "Yes", cypher: "Yes" },
+  { cap: "AV production", trad: "Sometimes", cypher: "Yes" },
+  { cap: "Digital marketing campaigns", trad: "No", cypher: "Yes" },
+  { cap: "Social media promotion", trad: "Rarely", cypher: "Always" },
+  { cap: "Lead generation strategy", trad: "No", cypher: "Yes" },
+  { cap: "Professional video production", trad: "Outsourced", cypher: "In-house" },
+  { cap: "Post-event content repurposing", trad: "No", cypher: "Yes" },
+  { cap: "ROI analytics & reporting", trad: "Limited", cypher: "Full report" },
+  { cap: "Dedicated event manager", trad: "Sometimes", cypher: "Always" },
+  { cap: "Island-wide coverage", trad: "Colombo only", cypher: "All Sri Lanka" },
+];
+
+const pricingRows = [
+  { type: "Corporate Workshop / Training", scale: "20–50 guests", price: "LKR 150,000 – 350,000" },
+  { type: "Product Launch", scale: "50–300 guests", price: "LKR 400,000 – 1,200,000" },
+  { type: "Mid-Size Conference / Seminar", scale: "100–300 guests", price: "LKR 500,000 – 1,200,000" },
+  { type: "Brand Activation / Roadshow", scale: "Varies", price: "LKR 300,000 – 1,000,000+" },
+  { type: "Award Ceremony / Gala Dinner", scale: "100–500 guests", price: "LKR 600,000 – 2,000,000" },
+  { type: "Large Corporate Conference", scale: "300–1,000+ guests", price: "LKR 1,200,000 – 3,000,000+" },
+  { type: "Wedding (Full Planning)", scale: "100–500 guests", price: "LKR 500,000 – 3,000,000+" },
+  { type: "Private / Social Event", scale: "30–200 guests", price: "LKR 150,000 – 800,000" },
+];
+
+const industries = [
+  { icon: <Building2 className="w-5 h-5" />, title: "Hospitality & Tourism", desc: "Hotel launches, travel trade events, tourism activations, resort promotions, MICE events." },
+  { icon: <ShoppingBag className="w-5 h-5" />, title: "FMCG & Retail", desc: "Product launches, in-store activations, consumer promotions, trade shows, sampling campaigns." },
+  { icon: <Landmark className="w-5 h-5" />, title: "Banking & Finance", desc: "Investor forums, AGMs, award ceremonies, compliance events, staff conferences." },
+  { icon: <HeartPulse className="w-5 h-5" />, title: "Healthcare & Pharma", desc: "Medical conferences, CME events, product launches, health awareness campaigns." },
+  { icon: <GraduationCap className="w-5 h-5" />, title: "Education", desc: "University open days, graduation ceremonies, education fairs, student recruitment events." },
+  { icon: <Cpu className="w-5 h-5" />, title: "Technology", desc: "Tech launches, developer conferences, startup pitching events, digital summits." },
+];
+
+const expertTips = [
+  { title: "Choose the Right Season for Your Event Location", desc: "Sri Lanka has two monsoons. The Southwest Monsoon (May–September) impacts Colombo, Galle and the Hill Country; the Northeast Monsoon (October–February) affects the North and East. Time outdoor events to avoid local monsoons." },
+  { title: "Book Venues 3–6 Months in Advance", desc: "Top venues — especially five-star hotel ballrooms in Colombo — book out fast during peak corporate (Oct–Mar) and wedding (Dec–Apr) season. Start 3 months ahead for mid-size events, 6 months for large conferences or weddings." },
+  { title: "Budget for Marketing as Part of the Event", desc: "The most successful events in Sri Lanka allocate 15–25% of total budget to marketing and promotion. Pre-event awareness campaigns improve attendance, engagement, and post-event ROI." },
+  { title: "Always Have a Contingency Plan", desc: "Power outages, sudden rain, vendor cancellations, and traffic disruptions are real risks. Professional event management companies in Sri Lanka build in backup generators, wet-weather contingencies, substitute vendor lists, and live communication protocols." },
+  { title: "Capture Every Moment on Professional Photo & Video", desc: "Photos and videos captured at your event should fuel your brand's social media, website, and ads for months. Budget for professional photography and a highlight video — the ROI is substantial." },
+  { title: "Follow Up Within 48 Hours Post-Event", desc: "The 48 hours after your event are the highest-value window for lead conversion. Deploy thank-you emails, share highlights on social media, run retargeting, and activate CRM sequences while attention is fresh." },
+];
+
+const reviews = [
+  { stars: 5, text: "Cypher Digital managed our annual corporate conference in Colombo flawlessly. From the venue setup to the post-event video they delivered in 48 hours — every detail was perfect. They are genuinely one of the best event management companies in Sri Lanka.", name: "Priya D.", role: "Head of Marketing, FMCG Company" },
+  { stars: 5, text: "Our product launch generated more media coverage and social media buzz than any previous launch, thanks to Cypher Digital's pre-event marketing campaigns. Highly recommend for anyone looking for event planning in Sri Lanka.", name: "Kasun R.", role: "Director, Technology Brand" },
+  { stars: 5, text: "They planned and executed our wedding in Kandy beautifully. Every vendor they recommended was professional, the decoration exceeded our expectations, and the video they produced is something we will treasure forever.", name: "Nirosha & Dinesh", role: "Wedding Clients, Kandy" },
+];
+
 const trustPoints = [
   { icon: <Shield className="w-5 h-5" />, title: "No Lock-in Contracts", desc: "Flexible packages with no long-term commitments." },
   { icon: <BarChart3 className="w-5 h-5" />, title: "Transparent Pricing", desc: "Clear quotations so you always know what you're paying for." },
@@ -160,12 +211,27 @@ const EventManagement = () => {
       {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        name: "Cypher Digital",
+        name: "Cypher Digital — Event Management Sri Lanka",
+        description: "Top event management company in Sri Lanka specializing in corporate events, product launches, brand activations and wedding planning.",
         url: "https://cypherdigital.lk",
         telephone: "+94701772626",
         address: { "@type": "PostalAddress", addressLocality: "Colombo", addressCountry: "LK" },
         areaServed: { "@type": "Country", name: "Sri Lanka" },
-        priceRange: "LKR 200,000 - LKR 2,000,000+",
+        priceRange: "LKR 150,000 – LKR 3,000,000+",
+        aggregateRating: { "@type": "AggregateRating", ratingValue: "4.9", reviewCount: "50" },
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        name: "Event Management Services in Sri Lanka — Cypher Digital",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Corporate Event Management Sri Lanka" },
+          { "@type": "ListItem", position: 2, name: "Product Launch Events Sri Lanka" },
+          { "@type": "ListItem", position: 3, name: "Brand Activation Sri Lanka" },
+          { "@type": "ListItem", position: 4, name: "Wedding Planning Sri Lanka" },
+          { "@type": "ListItem", position: 5, name: "Conference & Seminar Management Sri Lanka" },
+          { "@type": "ListItem", position: 6, name: "Exhibition & Trade Show Management Sri Lanka" },
+        ],
       },
       {
         "@context": "https://schema.org",
@@ -226,8 +292,8 @@ const EventManagement = () => {
   return (
     <div className="pt-16">
       <SEOHead
-        title="Event Management Sri Lanka (2026) | Marketing-Driven Event Planning | Cypher Digital"
-        description="Sri Lanka's leading marketing-driven event management company. Corporate events, product launches, brand activations & wedding planning. Free consultation via WhatsApp."
+        title="Event Management Sri Lanka (2026) | Best Event Management Companies in Sri Lanka | Cypher Digital"
+        description="Looking for the best event management companies in Sri Lanka? Cypher Digital is a top-rated event management Sri Lanka company offering corporate events, product launches, brand activations & wedding planning. Free consultation — call 070 177 2626."
         canonical={canonical}
       />
 

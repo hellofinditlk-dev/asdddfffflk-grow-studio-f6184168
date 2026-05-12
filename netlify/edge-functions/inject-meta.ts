@@ -674,6 +674,7 @@ const SCHEMA_MAP: Record<string, object[]> = {
 const escapeJsonLd = (json: string) => json.replaceAll("</", "<\\/");
 
 export default async function handler(request: Request, context: any) {
+  try {
   const url = new URL(request.url);
   const path = url.pathname.replace(/\/$/, "") || "/";
   const meta = META_MAP[path];
@@ -756,6 +757,10 @@ export default async function handler(request: Request, context: any) {
     status: response.status,
     headers,
   });
+  } catch (error) {
+    console.error("inject-meta edge function failed", error);
+    return context.next();
+  }
 }
 
 export const config = { path: "/*" };

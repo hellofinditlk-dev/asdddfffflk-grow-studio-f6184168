@@ -656,6 +656,147 @@ const EventManagement = () => {
         </div>
       </section>
 
+      {/* Comparison: Traditional vs Cypher Digital */}
+      <section className="py-20 lg:py-28">
+        <div className="container mx-auto px-4 max-w-5xl">
+          <div className="text-center mb-12">
+            <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-4">Industry Comparison</p>
+            <h2 className="font-heading text-2xl md:text-3xl font-extrabold">How Cypher Digital Compares to Other Event Management Companies in Sri Lanka</h2>
+            <p className="text-sm text-muted-foreground mt-3 max-w-2xl mx-auto">
+              Most <strong>event companies in Sri Lanka</strong> focus on logistics. Cypher Digital combines full event management with integrated digital marketing — so every event also generates leads, brand equity, and content.
+            </p>
+          </div>
+          <div className="overflow-x-auto rounded-xl border border-border bg-card">
+            <table className="w-full text-sm min-w-[560px]">
+              <thead className="bg-foreground text-white">
+                <tr>
+                  <th className="text-left px-4 py-3 font-semibold">Capability</th>
+                  <th className="text-left px-4 py-3 font-semibold">Typical SL Event Companies</th>
+                  <th className="text-left px-4 py-3 font-semibold">Cypher Digital</th>
+                </tr>
+              </thead>
+              <tbody>
+                {comparisonRows.map((r, i) => (
+                  <tr key={i} className="border-t border-border">
+                    <td className="px-4 py-3 font-medium">{r.cap}</td>
+                    <td className="px-4 py-3 text-muted-foreground inline-flex items-center gap-2">
+                      {(r.trad === "No" || r.trad === "Rarely" || r.trad === "Outsourced" || r.trad === "Limited" || r.trad === "Colombo only") ? <XCircle className="w-4 h-4 text-destructive" /> : <CheckCircle className="w-4 h-4 text-primary/70" />}
+                      {r.trad}
+                    </td>
+                    <td className="px-4 py-3 font-medium text-primary">
+                      <span className="inline-flex items-center gap-2"><CheckCircle className="w-4 h-4" />{r.cypher}</span>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      {/* Pricing Guide */}
+      <section className="py-20 lg:py-28 bg-secondary" id="event-management-cost-sri-lanka">
+        <div className="container mx-auto px-4 max-w-5xl">
+          <div className="text-center mb-12">
+            <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-4">Pricing Guide</p>
+            <h2 className="font-heading text-2xl md:text-3xl font-extrabold">Event Management Cost in Sri Lanka — Transparent Pricing Guide</h2>
+            <p className="text-sm text-muted-foreground mt-3 max-w-2xl mx-auto">
+              "How much does event management cost in Sri Lanka?" — the honest answer is that it varies. Below is an indicative budget guide before speaking to any <strong>event management company in Sri Lanka</strong>.
+            </p>
+          </div>
+          <div className="overflow-x-auto rounded-xl border border-border bg-card">
+            <table className="w-full text-sm min-w-[560px]">
+              <thead className="bg-foreground text-white">
+                <tr>
+                  <th className="text-left px-4 py-3 font-semibold">Event Type</th>
+                  <th className="text-left px-4 py-3 font-semibold">Typical Scale</th>
+                  <th className="text-left px-4 py-3 font-semibold">Budget Range</th>
+                </tr>
+              </thead>
+              <tbody>
+                {pricingRows.map((r, i) => (
+                  <tr key={i} className="border-t border-border">
+                    <td className="px-4 py-3 font-medium">{r.type}</td>
+                    <td className="px-4 py-3 text-muted-foreground">{r.scale}</td>
+                    <td className="px-4 py-3 font-semibold text-primary">{r.price}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-muted-foreground text-center mt-6 max-w-3xl mx-auto">
+            📋 Indicative ranges only. Final pricing depends on venue, guest count, catering, AV, decoration, and marketing scope. All Cypher Digital quotations are detailed, itemized, and 100% transparent — no hidden fees. Free custom quotation within 24 hours.
+          </p>
+        </div>
+      </section>
+
+      {/* Industries */}
+      <section className="py-20 lg:py-28">
+        <div className="container mx-auto px-4 max-w-5xl">
+          <div className="text-center mb-12">
+            <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-4">Industry Expertise</p>
+            <h2 className="font-heading text-2xl md:text-3xl font-extrabold">Industries We Serve Across Sri Lanka</h2>
+            <p className="text-sm text-muted-foreground mt-3 max-w-2xl mx-auto">
+              As one of the most versatile <strong>event management companies in Sri Lanka</strong>, we understand the unique event requirements of every major sector.
+            </p>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {industries.map((item, i) => (
+              <div key={i} className="bg-card border border-border rounded-xl p-6 hover:border-primary/20 transition-colors">
+                <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center text-primary mb-4">{item.icon}</div>
+                <h3 className="font-heading text-sm font-bold mb-1.5">{item.title}</h3>
+                <p className="text-xs text-muted-foreground leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Expert Tips */}
+      <section className="py-20 lg:py-28 bg-secondary">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <div className="text-center mb-12">
+            <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-4">Expert Guide</p>
+            <h2 className="font-heading text-2xl md:text-3xl font-extrabold">How to Plan a Successful Event in Sri Lanka — Expert Tips</h2>
+            <p className="text-sm text-muted-foreground mt-3 max-w-2xl mx-auto">
+              Planning an <strong>event in Sri Lanka</strong> involves unique local factors. Here's what Cypher Digital has learned from managing 100+ events across the island.
+            </p>
+          </div>
+          <div className="space-y-4">
+            {expertTips.map((tip, i) => (
+              <div key={i} className="bg-card border border-border rounded-xl p-6 flex gap-5">
+                <div className="shrink-0 w-10 h-10 rounded-full border-2 border-primary/30 text-primary font-heading font-bold text-sm flex items-center justify-center">
+                  {String(i + 1).padStart(2, "0")}
+                </div>
+                <div>
+                  <h3 className="font-heading text-base font-bold mb-1.5">{tip.title}</h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed">{tip.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Reviews */}
+      <section className="py-20 lg:py-28">
+        <div className="container mx-auto px-4 max-w-5xl">
+          <div className="text-center mb-12">
+            <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-4">Client Feedback</p>
+            <h2 className="font-heading text-2xl md:text-3xl font-extrabold">What Our Clients Say About Our Event Management in Sri Lanka</h2>
+          </div>
+          <div className="grid md:grid-cols-3 gap-5">
+            {reviews.map((r, i) => (
+              <div key={i} className="bg-card border border-border rounded-xl p-6">
+                <div className="text-yellow-500 mb-3" aria-label={`${r.stars} stars`}>{"★".repeat(r.stars)}</div>
+                <p className="text-sm italic text-muted-foreground mb-4 leading-relaxed">"{r.text}"</p>
+                <div className="text-sm font-semibold">{r.name} <span className="text-muted-foreground font-normal">— {r.role}</span></div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Related Services */}
       <section className="py-16 lg:py-20">
         <div className="container mx-auto px-4 max-w-4xl">

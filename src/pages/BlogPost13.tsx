@@ -37,7 +37,7 @@ const BlogPost13 = () => (
               <Link to="/social-media-management-sri-lanka" className="text-primary font-semibold hover:underline">social media management Sri Lanka</Link>{" "}
               for organic growth.
             </p>
-            <p>For detailed insights on{" "}<Link to="/advertising-in-sri-lanka" className="text-primary font-semibold hover:underline">advertising in Sri Lanka</Link>{" "}including market data, platform comparisons, and budget strategies, explore our complete guide.</p>
+            <p>For detailed insights on{" "}<Link to="/advertising-in-sri-lanka" className="text-primary font-semibold hover:underline">Advertising Sri Lanka</Link>{" "}including market data, platform comparisons, and budget strategies, explore our complete guide.</p>
             <p>As one of the{" "}<Link to="/" className="text-primary font-semibold hover:underline">best digital marketing agencies in Sri Lanka</Link>, Cypher Digital offers expert solutions tailored to grow your business online.</p>
           
             <p>Explore our deep dive on <Link to="/blog/facebook-campaign-strategy-guide-sri-lankan-brands" className="text-primary font-semibold hover:underline">Facebook campaign strategy guide</Link> to extend the strategy outlined above.</p>

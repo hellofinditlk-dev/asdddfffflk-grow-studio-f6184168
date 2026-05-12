@@ -18,7 +18,7 @@ const BlogPost79 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">Best Advertising Agencies in Sri Lanka — How to Choose the Right One (2026)</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
-            <p>Before choosing an agency, it helps to understand the full landscape of <Link to="/advertising-in-sri-lanka" className="text-primary font-semibold hover:underline">advertising in Sri Lanka</Link> — the channels available, what things cost, and what results are realistic for your industry.</p>
+            <p>Before choosing an agency, it helps to understand the full landscape of <Link to="/advertising-in-sri-lanka" className="text-primary font-semibold hover:underline">Advertising Sri Lanka</Link> — the channels available, what things cost, and what results are realistic for your industry.</p>
 
             <h2 className="font-heading text-xl font-bold text-foreground mt-8">What Does an Advertising Agency Actually Do?</h2>
             <p>An advertising agency plans, creates, and manages paid and organic marketing campaigns. Most agencies in Sri Lanka offer Facebook & Instagram ads, Google Search & Display, TikTok ads, <Link to="/seo-services-sri-lanka" className="text-primary underline">SEO and content</Link>, <Link to="/graphic-design-sri-lanka" className="text-primary underline">graphic design</Link>, <Link to="/video-production-sri-lanka" className="text-primary underline">video production</Link>, and <Link to="/social-media-management-sri-lanka" className="text-primary underline">social media management</Link>.</p>

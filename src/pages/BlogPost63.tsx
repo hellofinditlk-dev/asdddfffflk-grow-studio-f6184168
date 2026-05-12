@@ -43,7 +43,7 @@ const BlogPost63 = () => (
 
             <h2 className="font-heading text-xl font-bold text-foreground mt-8">Get Professional Help Today</h2>
             <p>For expert <Link to="/social-media-management-sri-lanka" className="text-primary font-semibold hover:underline">social media management Sri Lanka packages</Link>, contact Cypher Digital. Also explore our guide on <Link to="/blog/social-media-campaign-ideas-sri-lanka" className="text-primary font-semibold hover:underline">10 social media campaign ideas in Sri Lanka</Link>.</p>
-            <p>For broader insights on <Link to="/advertising-in-sri-lanka" className="text-primary font-semibold hover:underline">advertising in Sri Lanka</Link> including market data, platform comparisons, and budget strategies, explore our complete guide.</p>
+            <p>For broader insights on <Link to="/advertising-in-sri-lanka" className="text-primary font-semibold hover:underline">Advertising Sri Lanka</Link> including market data, platform comparisons, and budget strategies, explore our complete guide.</p>
             <p>As one of the <Link to="/" className="text-primary font-semibold hover:underline">best digital marketing agencies in Sri Lanka</Link>, Cypher Digital offers expert solutions tailored to grow your business online.</p>
 
             <p><a href="https://wa.me/94701772626" className="text-primary font-semibold hover:underline">📞 Book your free strategy call on WhatsApp →</a></p>

@@ -22,7 +22,7 @@ const BlogPost25 = () => (
             <p>Regular performance analysis allows businesses to adjust bids, audiences, and creatives for better outcomes.</p>
             <p>Working with professionals in{" "}<Link to="/google-ads-sri-lanka" className="text-primary font-semibold hover:underline">Google Ads Sri Lanka</Link>{" "}helps businesses continuously optimize campaigns and maximize return on investment.</p>
             <p>Pair with{" "}<Link to="/seo-services-sri-lanka" className="text-primary font-semibold hover:underline">SEO services Sri Lanka</Link>{" "}for organic growth, or improve ad creatives with{" "}<Link to="/graphic-design-sri-lanka" className="text-primary font-semibold hover:underline">graphic design Sri Lanka</Link>.</p>
-            <p>For detailed insights on{" "}<Link to="/advertising-in-sri-lanka" className="text-primary font-semibold hover:underline">advertising in Sri Lanka</Link>{" "}including market data, platform comparisons, and budget strategies, explore our complete guide.</p>
+            <p>For detailed insights on{" "}<Link to="/advertising-in-sri-lanka" className="text-primary font-semibold hover:underline">Advertising Sri Lanka</Link>{" "}including market data, platform comparisons, and budget strategies, explore our complete guide.</p>
             <p>As one of the{" "}<Link to="/" className="text-primary font-semibold hover:underline">best digital marketing agencies in Sri Lanka</Link>, Cypher Digital offers expert solutions tailored to grow your business online.</p>
           
             <p>Ready to take the next step? <Link to="/contact" className="text-primary font-semibold hover:underline">request a free audit</Link> from our team.</p>

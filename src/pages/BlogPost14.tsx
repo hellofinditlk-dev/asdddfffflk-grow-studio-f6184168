@@ -37,7 +37,7 @@ const BlogPost14 = () => (
               <Link to="/video-production-sri-lanka" className="text-primary font-semibold hover:underline">video production Sri Lanka</Link>{" "}
               for high-performing video ads.
             </p>
-            <p>For detailed insights on{" "}<Link to="/advertising-in-sri-lanka" className="text-primary font-semibold hover:underline">advertising in Sri Lanka</Link>{" "}including market data, platform comparisons, and budget strategies, explore our complete guide.</p>
+            <p>For detailed insights on{" "}<Link to="/advertising-in-sri-lanka" className="text-primary font-semibold hover:underline">Advertising Sri Lanka</Link>{" "}including market data, platform comparisons, and budget strategies, explore our complete guide.</p>
             <p>As one of the{" "}<Link to="/" className="text-primary font-semibold hover:underline">best digital marketing agencies in Sri Lanka</Link>, Cypher Digital offers expert solutions tailored to grow your business online.</p>
           </div>
           <div className="mt-14 pt-10 border-t border-border">
